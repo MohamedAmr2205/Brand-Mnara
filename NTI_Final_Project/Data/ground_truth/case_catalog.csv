@@ -1,0 +1,197 @@
+﻿case,student_id,detail,n_matching
+archetype:star,S0182,,130
+archetype:star,S0054,,130
+archetype:star,S0452,,130
+archetype:star,S0400,,130
+archetype:star,S0376,,130
+archetype:star,S0208,,130
+archetype:rising,S0772,,120
+archetype:rising,S0098,,120
+archetype:rising,S0723,,120
+archetype:rising,S0964,,120
+archetype:rising,S0565,,120
+archetype:rising,S0074,,120
+archetype:average,S0605,,490
+archetype:average,S0466,,490
+archetype:average,S0038,,490
+archetype:average,S0034,,490
+archetype:average,S0104,,490
+archetype:average,S0240,,490
+archetype:volatile,S0254,,30
+archetype:volatile,S0457,,30
+archetype:volatile,S0608,,30
+archetype:volatile,S0013,,30
+archetype:volatile,S0520,,30
+archetype:volatile,S0219,,30
+archetype:gifted_absent,S0784,,15
+archetype:gifted_absent,S0664,,15
+archetype:gifted_absent,S0907,,15
+archetype:gifted_absent,S0500,,15
+archetype:gifted_absent,S0333,,15
+archetype:gifted_absent,S0113,,15
+archetype:hardworker_low,S0639,,25
+archetype:hardworker_low,S0787,,25
+archetype:hardworker_low,S0359,,25
+archetype:hardworker_low,S0005,,25
+archetype:hardworker_low,S0102,,25
+archetype:hardworker_low,S0592,,25
+archetype:declining,S0471,,25
+archetype:declining,S0444,,25
+archetype:declining,S0180,,25
+archetype:declining,S0377,,25
+archetype:declining,S0990,,25
+archetype:declining,S0165,,25
+archetype:weak,S0087,,40
+archetype:weak,S0653,,40
+archetype:weak,S0155,,40
+archetype:weak,S0612,,40
+archetype:weak,S0901,,40
+archetype:weak,S0437,,40
+archetype:at_risk,S0884,,60
+archetype:at_risk,S0041,,60
+archetype:at_risk,S0851,,60
+archetype:at_risk,S0545,,60
+archetype:at_risk,S0616,,60
+archetype:at_risk,S0200,,60
+archetype:needs_attention,S0687,,35
+archetype:needs_attention,S0181,,35
+archetype:needs_attention,S0581,,35
+archetype:needs_attention,S0683,,35
+archetype:needs_attention,S0908,,35
+archetype:needs_attention,S0188,,35
+archetype:dropout,S0810,,30
+archetype:dropout,S0229,,30
+archetype:dropout,S0190,,30
+archetype:dropout,S0805,,30
+archetype:dropout,S0308,,30
+archetype:dropout,S0841,,30
+overlay:long_excused_block,S0436,2-4 consecutive excused sessions,20
+overlay:long_excused_block,S0152,2-4 consecutive excused sessions,20
+overlay:long_excused_block,S0324,2-4 consecutive excused sessions,20
+overlay:long_excused_block,S0196,2-4 consecutive excused sessions,20
+overlay:long_excused_block,S0732,2-4 consecutive excused sessions,20
+overlay:long_excused_block,S0247,2-4 consecutive excused sessions,20
+overlay:transfer_between_groups,S0483,records in two groups; Students.group_id = latest,30
+overlay:transfer_between_groups,S0685,records in two groups; Students.group_id = latest,30
+overlay:transfer_between_groups,S0880,records in two groups; Students.group_id = latest,30
+overlay:transfer_between_groups,S0382,records in two groups; Students.group_id = latest,30
+overlay:transfer_between_groups,S0268,records in two groups; Students.group_id = latest,30
+overlay:transfer_between_groups,S0883,records in two groups; Students.group_id = latest,30
+overlay:late_joiner,S0506,"join mid-year, student_month restarts at 1",50
+overlay:late_joiner,S0249,"join mid-year, student_month restarts at 1",50
+overlay:late_joiner,S0924,"join mid-year, student_month restarts at 1",50
+overlay:late_joiner,S0315,"join mid-year, student_month restarts at 1",50
+overlay:late_joiner,S0932,"join mid-year, student_month restarts at 1",50
+overlay:late_joiner,S0926,"join mid-year, student_month restarts at 1",50
+overlay:one_off_bad_exam_shock,S0726,,60
+overlay:one_off_bad_exam_shock,S0075,,60
+overlay:one_off_bad_exam_shock,S0710,,60
+overlay:one_off_bad_exam_shock,S0717,,60
+overlay:one_off_bad_exam_shock,S0163,,60
+overlay:one_off_bad_exam_shock,S0647,,60
+overlay:sibling_pair_second,S0455,"shares parent_phone, 20% discount",40
+overlay:sibling_pair_second,S0253,"shares parent_phone, 20% discount",40
+overlay:sibling_pair_second,S0734,"shares parent_phone, 20% discount",40
+overlay:sibling_pair_second,S0609,"shares parent_phone, 20% discount",40
+overlay:sibling_pair_second,S0512,"shares parent_phone, 20% discount",40
+overlay:sibling_pair_second,S0414,"shares parent_phone, 20% discount",40
+names:exact_duplicate_full_name,S0586,same full name as another student,4
+names:exact_duplicate_full_name,S0269,same full name as another student,4
+names:exact_duplicate_full_name,S0621,same full name as another student,4
+names:exact_duplicate_full_name,S0282,same full name as another student,4
+names:same_first_and_father,S0221,,12
+names:same_first_and_father,S0296,,12
+names:same_first_and_father,S0205,,12
+names:same_first_and_father,S0057,,12
+names:same_first_and_father,S0087,,12
+names:same_first_and_father,S0720,,12
+payment_profile:on_time,S0906,,407
+payment_profile:on_time,S0355,,407
+payment_profile:on_time,S0241,,407
+payment_profile:on_time,S0818,,407
+payment_profile:on_time,S0613,,407
+payment_profile:on_time,S0466,,407
+payment_profile:sometimes_late,S0971,,120
+payment_profile:sometimes_late,S0992,,120
+payment_profile:sometimes_late,S0693,,120
+payment_profile:sometimes_late,S0486,,120
+payment_profile:sometimes_late,S0128,,120
+payment_profile:sometimes_late,S0231,,120
+payment_profile:chronic_late,S0133,,95
+payment_profile:chronic_late,S0279,,95
+payment_profile:chronic_late,S0821,,95
+payment_profile:chronic_late,S0810,,95
+payment_profile:chronic_late,S0315,,95
+payment_profile:chronic_late,S0846,,95
+payment_profile:skip_catchup,S0472,,55
+payment_profile:skip_catchup,S0596,,55
+payment_profile:skip_catchup,S0432,,55
+payment_profile:skip_catchup,S0406,,55
+payment_profile:skip_catchup,S0251,,55
+payment_profile:skip_catchup,S0181,,55
+payment_profile:stopped_paying,S0885,,78
+payment_profile:stopped_paying,S0873,,78
+payment_profile:stopped_paying,S0278,,78
+payment_profile:stopped_paying,S0165,,78
+payment_profile:stopped_paying,S0312,,78
+payment_profile:stopped_paying,S0354,,78
+payment_profile:partial_payer,S0862,,89
+payment_profile:partial_payer,S0291,,89
+payment_profile:partial_payer,S0986,,89
+payment_profile:partial_payer,S0641,,89
+payment_profile:partial_payer,S0823,,89
+payment_profile:partial_payer,S0119,,89
+payment_profile:one_miss,S0436,,126
+payment_profile:one_miss,S0412,,126
+payment_profile:one_miss,S0587,,126
+payment_profile:one_miss,S0485,,126
+payment_profile:one_miss,S0524,,126
+payment_profile:one_miss,S0304,,126
+payment_profile:exempt,S0772,,30
+payment_profile:exempt,S0949,,30
+payment_profile:exempt,S0031,,30
+payment_profile:exempt,S0857,,30
+payment_profile:exempt,S0892,,30
+payment_profile:exempt,S0168,,30
+discount:scholarship_50pct,S0732,,20
+discount:scholarship_50pct,S0311,,20
+discount:scholarship_50pct,S0396,,20
+discount:scholarship_50pct,S0078,,20
+discount:scholarship_50pct,S0353,,20
+discount:scholarship_50pct,S0216,,20
+rule:at_risk_(present<80%_and_avg<75%),S0332,,83
+rule:at_risk_(present<80%_and_avg<75%),S0744,,83
+rule:at_risk_(present<80%_and_avg<75%),S0019,,83
+rule:at_risk_(present<80%_and_avg<75%),S0472,,83
+rule:at_risk_(present<80%_and_avg<75%),S0830,,83
+rule:at_risk_(present<80%_and_avg<75%),S0354,,83
+rule:needs_attention,S0990,,263
+rule:needs_attention,S0219,,263
+rule:needs_attention,S0612,,263
+rule:needs_attention,S0425,,263
+rule:needs_attention,S0320,,263
+rule:needs_attention,S0729,,263
+rule:perfect_attendance_(no_absence_no_late),S0224,,174
+rule:perfect_attendance_(no_absence_no_late),S0806,,174
+rule:perfect_attendance_(no_absence_no_late),S0797,,174
+rule:perfect_attendance_(no_absence_no_late),S0004,,174
+rule:perfect_attendance_(no_absence_no_late),S0897,,174
+rule:perfect_attendance_(no_absence_no_late),S0474,,174
+payments:3+_unpaid_months,S0821,,81
+payments:3+_unpaid_months,S0116,,81
+payments:3+_unpaid_months,S0318,,81
+payments:3+_unpaid_months,S0609,,81
+payments:3+_unpaid_months,S0560,,81
+payments:3+_unpaid_months,S0451,,81
+payments:3+_unpaid_months_but_still_attending,S0208,,81
+payments:3+_unpaid_months_but_still_attending,S0451,,81
+payments:3+_unpaid_months_but_still_attending,S0925,,81
+payments:3+_unpaid_months_but_still_attending,S0263,,81
+payments:3+_unpaid_months_but_still_attending,S0977,,81
+payments:3+_unpaid_months_but_still_attending,S0821,,81
+payments:dropped_with_arrears,S0343,,19
+payments:dropped_with_arrears,S0479,,19
+payments:dropped_with_arrears,S0229,,19
+payments:dropped_with_arrears,S0242,,19
+payments:dropped_with_arrears,S0429,,19
+payments:dropped_with_arrears,S0666,,19

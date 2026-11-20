@@ -1,0 +1,2174 @@
+﻿table,key,column,issue,original,injected
+Students,S0506,name,missing_value,هدير حسن وليد,
+Students,S0653,phone,missing_value,01092153470,
+Students,S0402,parent_phone,missing_value,01237095515,
+Students,S0044,group_id,missing_value,G02,
+Students,S0578,gender,missing_value,أنثى,
+Students,S0021,grade,missing_value,تالتة ثانوي,
+Students,S0277,school_type,missing_value,لغات,
+Students,S0840,area,missing_value,الإبراهيمية,
+Students,S0465,join_date,missing_value,2025-09-05,
+Students,S0588,status,missing_value,active,
+Students,S0263,name,trailing_space,ماجد علي هشام,ماجد علي هشام 
+Students,S0223,name,trailing_space,حسام رأفت جمال,حسام رأفت جمال 
+Students,S0747,name,trailing_space,دعاء فاروق إمام,دعاء فاروق إمام 
+Students,S0273,name,trailing_space,كريم زكريا أحمد,كريم زكريا أحمد 
+Students,S0451,name,trailing_space,يارا سعيد علي,يارا سعيد علي 
+Students,S0419,name,trailing_space,ميرنا عماد عثمان,ميرنا عماد عثمان 
+Students,S0840,name,trailing_space,مروان منصور زكريا,مروان منصور زكريا 
+Students,S0639,name,trailing_space,حسن مصطفى جمال,حسن مصطفى جمال 
+Students,S0378,name,trailing_space,شريف عبد العزيز سمير,شريف عبد العزيز سمير 
+Students,S0148,name,trailing_space,تقى رمضان رأفت,تقى رمضان رأفت 
+Students,S0453,area,trailing_space,العصافرة,العصافرة 
+Students,S0005,area,trailing_space,العصافرة,العصافرة 
+Students,S0308,area,trailing_space,الورديان,الورديان 
+Students,S0400,area,trailing_space,لوران,لوران 
+Students,S0420,area,trailing_space,سيدي جابر,سيدي جابر 
+Students,S0948,area,trailing_space,رشدي,رشدي 
+Students,S0837,area,trailing_space,سموحة,سموحة 
+Students,S0015,area,trailing_space,الشاطبي,الشاطبي 
+Students,S0536,area,trailing_space,محرم بك,محرم بك 
+Students,S0546,area,trailing_space,العجمي,العجمي 
+Students,S0498,phone,inconsistent_phone_format,01521880552,0152 188 0552
+Students,S0742,phone,inconsistent_phone_format,01138085026,0113 808 5026
+Students,S0599,phone,inconsistent_phone_format,01507214065,'01507214065
+Students,S0093,phone,inconsistent_phone_format,01040014436,1040014436
+Students,S0442,phone,inconsistent_phone_format,01150442343,'01150442343
+Students,S0415,phone,inconsistent_phone_format,01070985981,1070985981
+Students,S0558,phone,inconsistent_phone_format,01544446751,'01544446751
+Students,S0337,phone,inconsistent_phone_format,01116536315,'01116536315
+Students,S0045,phone,inconsistent_phone_format,01023281089,'01023281089
+Students,S0332,phone,inconsistent_phone_format,01005450203,'01005450203
+Students,S0662,phone,inconsistent_phone_format,01046915244,1046915244
+Students,S0074,phone,inconsistent_phone_format,01222584121,0122 258 4121
+Students,S0670,phone,inconsistent_phone_format,01148005172,+201148005172
+Students,S0034,phone,inconsistent_phone_format,01093028307,+201093028307
+Students,S0118,phone,inconsistent_phone_format,01047732480,'01047732480
+Students,S0123,phone,inconsistent_phone_format,01032248729,1032248729
+Students,S0737,phone,inconsistent_phone_format,01056594218,'01056594218
+Students,S0589,phone,inconsistent_phone_format,01290284507,'01290284507
+Students,S0695,phone,inconsistent_phone_format,01172104494,+201172104494
+Students,S0959,phone,inconsistent_phone_format,01501121103,'01501121103
+Students,S0686,phone,inconsistent_phone_format,01550212074,0155 021 2074
+Students,S0530,phone,inconsistent_phone_format,01109199076,1109199076
+Students,S0545,phone,inconsistent_phone_format,01113707306,0111 370 7306
+Students,S0538,phone,inconsistent_phone_format,01292488253,1292488253
+Students,S0050,phone,inconsistent_phone_format,01172810276,0117 281 0276
+Students,S0587,phone,inconsistent_phone_format,01578999077,'01578999077
+Students,S0326,phone,inconsistent_phone_format,01209068541,'01209068541
+Students,S0412,phone,inconsistent_phone_format,01285346822,1285346822
+Students,S0835,phone,inconsistent_phone_format,01115073422,0111 507 3422
+Students,S0033,phone,inconsistent_phone_format,01204609306,1204609306
+Students,S0292,phone,inconsistent_phone_format,01295195273,+201295195273
+Students,S0103,phone,inconsistent_phone_format,01128571769,0112 857 1769
+Students,S0969,phone,inconsistent_phone_format,01161377310,1161377310
+Students,S0301,phone,inconsistent_phone_format,01085207889,0108 520 7889
+Students,S0115,phone,inconsistent_phone_format,01252315220,'01252315220
+Students,S0137,phone,inconsistent_phone_format,01139402168,0113 940 2168
+Students,S0822,phone,inconsistent_phone_format,01584525779,'01584525779
+Students,S0560,phone,inconsistent_phone_format,01077722135,'01077722135
+Students,S0265,phone,inconsistent_phone_format,01175666792,+201175666792
+Students,S0493,phone,inconsistent_phone_format,01015421137,1015421137
+Students,S0826,(row),duplicate_row,,duplicated
+Students,S0949,(row),duplicate_row,,duplicated
+Groups,G21,group_name,missing_value,مجموعة تالتة السبت 10,
+Groups,G32,day,missing_value,الخميس,
+Groups,G22,time,missing_value,4:00:00 PM,
+Groups,G22,grade,missing_value,أولى ثانوي,
+Groups,G28,track,missing_value,عام,
+Groups,G40,monthly_fee,missing_value,600,
+Groups,G28,start_date,missing_value,2025-09-12,
+Groups,G09,(row),duplicate_row,,duplicated
+Sessions,SES0418,group_id,missing_value,G12,
+Sessions,SES1335,date,missing_value,2025-09-22,
+Sessions,SES1208,session_number,missing_value,20,
+Sessions,SES0324,month,missing_value,9,
+Sessions,SES0516,session_type,missing_value,regular,
+Sessions,SES0920,(row),duplicate_row,,duplicated
+Sessions,SES0948,(row),duplicate_row,,duplicated
+Records,R19286,student_id,missing_value,S0566,
+Records,R33610,student_id,missing_value,S0955,
+Records,R27544,student_id,missing_value,S0778,
+Records,R12605,student_id,missing_value,S0364,
+Records,R12777,student_id,missing_value,S0361,
+Records,R31136,student_id,missing_value,S0899,
+Records,R07590,student_id,missing_value,S0206,
+Records,R25388,student_id,missing_value,S0742,
+Records,R09813,student_id,missing_value,S0283,
+Records,R31948,student_id,missing_value,S0916,
+Records,R09842,student_id,missing_value,S0290,
+Records,R24465,student_id,missing_value,S0714,
+Records,R32982,student_id,missing_value,S0941,
+Records,R21892,student_id,missing_value,S0633,
+Records,R05230,student_id,missing_value,S0139,
+Records,R25481,student_id,missing_value,S0741,
+Records,R25205,student_id,missing_value,S0741,
+Records,R08014,student_id,missing_value,S0250,
+Records,R25257,student_id,missing_value,S0726,
+Records,R23599,student_id,missing_value,S0668,
+Records,R17237,student_id,missing_value,S0482,
+Records,R26850,student_id,missing_value,S0757,
+Records,R26143,student_id,missing_value,S0656,
+Records,R17652,student_id,missing_value,S0506,
+Records,R31951,student_id,missing_value,S0919,
+Records,R33680,student_id,missing_value,S0962,
+Records,R09908,student_id,missing_value,S0285,
+Records,R09417,student_id,missing_value,S0256,
+Records,R09222,student_id,missing_value,S0264,
+Records,R09775,student_id,missing_value,S0292,
+Records,R12549,student_id,missing_value,S0359,
+Records,R27876,student_id,missing_value,S0821,
+Records,R15774,student_id,missing_value,S0467,
+Records,R26481,student_id,missing_value,S0749,
+Records,R10915,student_id,missing_value,S0303,
+Records,R34491,student_id,missing_value,S0978,
+Records,R32417,student_id,missing_value,S0944,
+Records,R19788,student_id,missing_value,S0545,
+Records,R22258,student_id,missing_value,S0635,
+Records,R32849,student_id,missing_value,S0943,
+Records,R24404,student_id,missing_value,S0713,
+Records,R07016,student_id,missing_value,S0207,
+Records,R12754,student_id,missing_value,S0363,
+Records,R00705,session_id,missing_value,SES0027,
+Records,R34168,session_id,missing_value,SES1419,
+Records,R23179,session_id,missing_value,SES0972,
+Records,R33714,session_id,missing_value,SES1402,
+Records,R12475,session_id,missing_value,SES0525,
+Records,R27952,session_id,missing_value,SES1157,
+Records,R20711,session_id,missing_value,SES0863,
+Records,R18704,session_id,missing_value,SES0785,
+Records,R29452,session_id,missing_value,SES1219,
+Records,R04426,session_id,missing_value,SES0178,
+Records,R31210,session_id,missing_value,SES1299,
+Records,R05242,session_id,missing_value,SES0207,
+Records,R22203,session_id,missing_value,SES0925,
+Records,R21194,session_id,missing_value,SES0882,
+Records,R10532,session_id,missing_value,SES0440,
+Records,R21577,session_id,missing_value,SES0897,
+Records,R16784,session_id,missing_value,SES0702,
+Records,R05085,session_id,missing_value,SES0202,
+Records,R01317,session_id,missing_value,SES0052,
+Records,R32414,session_id,missing_value,SES1346,
+Records,R12887,session_id,missing_value,SES0541,
+Records,R07769,session_id,missing_value,SES0321,
+Records,R33343,session_id,missing_value,SES1384,
+Records,R29768,session_id,missing_value,SES1232,
+Records,R09883,session_id,missing_value,SES0410,
+Records,R17089,session_id,missing_value,SES0713,
+Records,R30416,session_id,missing_value,SES1263,
+Records,R27810,session_id,missing_value,SES1151,
+Records,R03170,session_id,missing_value,SES0122,
+Records,R03481,session_id,missing_value,SES0135,
+Records,R07328,session_id,missing_value,SES0303,
+Records,R22471,session_id,missing_value,SES0938,
+Records,R00346,session_id,missing_value,SES0014,
+Records,R16653,session_id,missing_value,SES0698,
+Records,R05537,session_id,missing_value,SES0218,
+Records,R34563,session_id,missing_value,SES1433,
+Records,R01402,session_id,missing_value,SES0056,
+Records,R01789,session_id,missing_value,SES0072,
+Records,R24126,session_id,missing_value,SES1008,
+Records,R33317,session_id,missing_value,SES1383,
+Records,R05840,session_id,missing_value,SES0232,
+Records,R27520,session_id,missing_value,SES1139,
+Records,R24741,session_id,missing_value,SES1029,
+Records,R29316,date,missing_value,2026-04-04,
+Records,R14588,date,missing_value,2025-10-03,
+Records,R17890,date,missing_value,2026-03-28,
+Records,R04024,date,missing_value,2025-12-23,
+Records,R20972,date,missing_value,2025-11-07,
+Records,R13867,date,missing_value,2025-10-30,
+Records,R05125,date,missing_value,2026-02-22,
+Records,R00673,date,missing_value,2026-03-17,
+Records,R05122,date,missing_value,2026-02-22,
+Records,R29307,date,missing_value,2026-04-04,
+Records,R27255,date,missing_value,2025-11-20,
+Records,R27554,date,missing_value,2026-03-05,
+Records,R18312,date,missing_value,2025-11-14,
+Records,R20176,date,missing_value,2025-12-11,
+Records,R32892,date,missing_value,2026-06-01,
+Records,R05914,date,missing_value,2026-02-09,
+Records,R13368,date,missing_value,2026-02-27,
+Records,R14538,date,missing_value,2025-09-19,
+Records,R13792,date,missing_value,2025-10-02,
+Records,R10398,date,missing_value,2026-06-09,
+Records,R27760,date,missing_value,2026-05-14,
+Records,R03560,date,missing_value,2026-05-19,
+Records,R32347,date,missing_value,2025-12-01,
+Records,R27569,date,missing_value,2026-03-12,
+Records,R00241,date,missing_value,2025-11-11,
+Records,R25369,date,missing_value,2025-11-05,
+Records,R01700,date,missing_value,2026-05-13,
+Records,R27192,date,missing_value,2025-11-06,
+Records,R04927,date,missing_value,2025-12-21,
+Records,R34012,date,missing_value,2025-11-12,
+Records,R07192,date,missing_value,2025-11-17,
+Records,R34583,date,missing_value,2026-05-06,
+Records,R11472,date,missing_value,2026-01-16,
+Records,R14156,date,missing_value,2026-02-12,
+Records,R20424,date,missing_value,2026-03-12,
+Records,R29461,date,missing_value,2026-05-09,
+Records,R24134,date,missing_value,2026-06-26,
+Records,R23269,date,missing_value,2025-10-03,
+Records,R12791,date,missing_value,2026-06-15,
+Records,R25512,date,missing_value,2025-12-24,
+Records,R18758,date,missing_value,2026-05-08,
+Records,R30838,date,missing_value,2026-03-07,
+Records,R32459,date,missing_value,2026-01-05,
+Records,R14081,attendance,missing_value,present,
+Records,R11674,attendance,missing_value,present,
+Records,R16571,attendance,missing_value,present,
+Records,R18594,attendance,missing_value,present,
+Records,R29630,attendance,missing_value,present,
+Records,R12652,attendance,missing_value,present,
+Records,R34349,attendance,missing_value,present,
+Records,R26141,attendance,missing_value,present,
+Records,R03435,attendance,missing_value,present,
+Records,R11434,attendance,missing_value,present,
+Records,R11751,attendance,missing_value,present,
+Records,R10617,attendance,missing_value,late,
+Records,R33025,attendance,missing_value,present,
+Records,R01730,attendance,missing_value,absent,
+Records,R10458,attendance,missing_value,present,
+Records,R04139,attendance,missing_value,present,
+Records,R29505,attendance,missing_value,present,
+Records,R32136,attendance,missing_value,present,
+Records,R12424,attendance,missing_value,present,
+Records,R31051,attendance,missing_value,present,
+Records,R18682,attendance,missing_value,present,
+Records,R12228,attendance,missing_value,present,
+Records,R12051,attendance,missing_value,present,
+Records,R15110,attendance,missing_value,present,
+Records,R09140,attendance,missing_value,present,
+Records,R02922,attendance,missing_value,present,
+Records,R31073,attendance,missing_value,present,
+Records,R26939,attendance,missing_value,present,
+Records,R08227,attendance,missing_value,present,
+Records,R07674,attendance,missing_value,present,
+Records,R16789,attendance,missing_value,present,
+Records,R00345,attendance,missing_value,present,
+Records,R28452,attendance,missing_value,present,
+Records,R00306,attendance,missing_value,present,
+Records,R09649,attendance,missing_value,present,
+Records,R01099,attendance,missing_value,present,
+Records,R19636,attendance,missing_value,present,
+Records,R10331,attendance,missing_value,present,
+Records,R33809,attendance,missing_value,present,
+Records,R23641,attendance,missing_value,present,
+Records,R01675,attendance,missing_value,present,
+Records,R31633,attendance,missing_value,present,
+Records,R04040,attendance,missing_value,present,
+Records,R13107,homework,missing_value,جيد,
+Records,R24554,homework,missing_value,ممتاز,
+Records,R23852,homework,missing_value,لم يسلم,
+Records,R15302,homework,missing_value,جيد,
+Records,R13381,homework,missing_value,جيد جدا,
+Records,R03235,homework,missing_value,جيد جدا,
+Records,R05024,homework,missing_value,ممتاز,
+Records,R28530,homework,missing_value,مقبول,
+Records,R04677,homework,missing_value,جيد جدا,
+Records,R19594,homework,missing_value,لم يسلم,
+Records,R28962,homework,missing_value,مقبول,
+Records,R20999,homework,missing_value,ممتاز,
+Records,R17583,homework,missing_value,لم يسلم,
+Records,R22510,homework,missing_value,ممتاز,
+Records,R03153,homework,missing_value,جيد جدا,
+Records,R31962,homework,missing_value,ضعيف,
+Records,R10270,homework,missing_value,ممتاز,
+Records,R13643,homework,missing_value,ممتاز,
+Records,R32301,homework,missing_value,جيد جدا,
+Records,R15186,homework,missing_value,ضعيف,
+Records,R07074,homework,missing_value,مقبول,
+Records,R21953,homework,missing_value,ممتاز,
+Records,R05517,homework,missing_value,جيد,
+Records,R14563,homework,missing_value,مقبول,
+Records,R10177,homework,missing_value,جيد جدا,
+Records,R24646,homework,missing_value,لم يسلم,
+Records,R04394,homework,missing_value,ممتاز,
+Records,R27715,homework,missing_value,جيد,
+Records,R27002,homework,missing_value,ممتاز,
+Records,R08319,homework,missing_value,جيد,
+Records,R27110,homework,missing_value,لم يسلم,
+Records,R24714,homework,missing_value,جيد جدا,
+Records,R04559,homework,missing_value,جيد جدا,
+Records,R32373,homework,missing_value,ممتاز,
+Records,R10395,homework,missing_value,مقبول,
+Records,R09970,homework,missing_value,لم يسلم,
+Records,R12823,homework,missing_value,جيد,
+Records,R25835,homework,missing_value,ممتاز,
+Records,R14115,homework,missing_value,جيد جدا,
+Records,R23378,homework,missing_value,لم يسلم,
+Records,R34305,homework,missing_value,ممتاز,
+Records,R31642,homework,missing_value,ممتاز,
+Records,R32576,homework,missing_value,مقبول,
+Records,R23237,exam_score,missing_value,12,
+Records,R06440,exam_score,missing_value,41,
+Records,R05786,exam_score,missing_value,9,
+Records,R12001,exam_score,missing_value,16,
+Records,R31858,exam_score,missing_value,18,
+Records,R29586,exam_score,missing_value,48,
+Records,R18249,exam_score,missing_value,8,
+Records,R22171,exam_score,missing_value,49,
+Records,R03530,exam_score,missing_value,8,
+Records,R14910,exam_score,missing_value,15,
+Records,R08398,exam_score,missing_value,47,
+Records,R05643,exam_score,missing_value,9,
+Records,R33660,exam_score,missing_value,20,
+Records,R25830,exam_score,missing_value,20,
+Records,R24217,exam_score,missing_value,20,
+Records,R01847,exam_score,missing_value,16,
+Records,R04909,exam_score,missing_value,41,
+Records,R08347,exam_score,missing_value,8,
+Records,R19211,exam_score,missing_value,19,
+Records,R05733,exam_score,missing_value,8,
+Records,R31634,exam_score,missing_value,18,
+Records,R27399,exam_score,missing_value,18,
+Records,R14869,exam_score,missing_value,16,
+Records,R23855,exam_score,missing_value,19,
+Records,R04652,exam_score,missing_value,15,
+Records,R29801,exam_score,missing_value,8,
+Records,R00257,exam_score,missing_value,7,
+Records,R11659,exam_score,missing_value,53,
+Records,R32297,exam_score,missing_value,18,
+Records,R24375,exam_score,missing_value,26,
+Records,R25575,exam_score,missing_value,15,
+Records,R34115,exam_score,missing_value,19,
+Records,R19478,exam_score,missing_value,17,
+Records,R31733,exam_score,missing_value,12,
+Records,R12628,exam_score,missing_value,17,
+Records,R19860,exam_score,missing_value,16,
+Records,R14507,exam_score,missing_value,54,
+Records,R27700,exam_score,missing_value,18,
+Records,R24422,exam_score,missing_value,17,
+Records,R20053,exam_score,missing_value,20,
+Records,R03778,exam_score,missing_value,44,
+Records,R26088,max_exam_score,missing_value,50,
+Records,R00835,max_exam_score,missing_value,50,
+Records,R27036,max_exam_score,missing_value,20,
+Records,R31724,max_exam_score,missing_value,20,
+Records,R15992,max_exam_score,missing_value,20,
+Records,R06974,max_exam_score,missing_value,50,
+Records,R07860,max_exam_score,missing_value,50,
+Records,R24239,max_exam_score,missing_value,50,
+Records,R31697,max_exam_score,missing_value,20,
+Records,R28651,max_exam_score,missing_value,20,
+Records,R14089,max_exam_score,missing_value,20,
+Records,R27238,max_exam_score,missing_value,20,
+Records,R04056,max_exam_score,missing_value,20,
+Records,R06215,max_exam_score,missing_value,10,
+Records,R29074,max_exam_score,missing_value,20,
+Records,R25292,max_exam_score,missing_value,20,
+Records,R22242,max_exam_score,missing_value,20,
+Records,R07964,max_exam_score,missing_value,50,
+Records,R15567,max_exam_score,missing_value,50,
+Records,R06599,max_exam_score,missing_value,50,
+Records,R29372,max_exam_score,missing_value,60,
+Records,R30539,max_exam_score,missing_value,20,
+Records,R24118,max_exam_score,missing_value,50,
+Records,R20505,max_exam_score,missing_value,20,
+Records,R10784,max_exam_score,missing_value,10,
+Records,R13068,max_exam_score,missing_value,20,
+Records,R15531,max_exam_score,missing_value,20,
+Records,R19645,max_exam_score,missing_value,20,
+Records,R12005,max_exam_score,missing_value,20,
+Records,R32741,max_exam_score,missing_value,20,
+Records,R00055,max_exam_score,missing_value,20,
+Records,R09181,max_exam_score,missing_value,20,
+Records,R32870,max_exam_score,missing_value,20,
+Records,R19614,max_exam_score,missing_value,50,
+Records,R03256,max_exam_score,missing_value,20,
+Records,R24513,max_exam_score,missing_value,20,
+Records,R23001,max_exam_score,missing_value,20,
+Records,R24650,max_exam_score,missing_value,20,
+Records,R26647,max_exam_score,missing_value,50,
+Records,R23315,max_exam_score,missing_value,20,
+Records,R33080,max_exam_score,missing_value,60,
+Records,R12930,max_exam_score,missing_value,20,
+Records,R10607,percentage,missing_value,0.7,
+Records,R32784,percentage,missing_value,0.82,
+Records,R15514,percentage,missing_value,0.5,
+Records,R09760,percentage,missing_value,1.0,
+Records,R28738,percentage,missing_value,0.7333333333333333,
+Records,R32243,percentage,missing_value,0.9,
+Records,R33437,percentage,missing_value,1.0,
+Records,R29970,percentage,missing_value,0.9,
+Records,R22128,percentage,missing_value,0.85,
+Records,R01097,percentage,missing_value,0.55,
+Records,R22413,percentage,missing_value,0.5,
+Records,R06818,percentage,missing_value,0.94,
+Records,R34171,percentage,missing_value,0.9,
+Records,R26216,percentage,missing_value,0.34,
+Records,R14210,percentage,missing_value,0.45,
+Records,R34038,percentage,missing_value,0.5,
+Records,R30371,percentage,missing_value,0.85,
+Records,R12879,percentage,missing_value,0.6,
+Records,R21126,percentage,missing_value,0.8,
+Records,R33032,percentage,missing_value,0.75,
+Records,R10567,percentage,missing_value,0.7,
+Records,R31373,percentage,missing_value,0.75,
+Records,R33076,percentage,missing_value,0.8,
+Records,R29248,percentage,missing_value,0.95,
+Records,R06608,percentage,missing_value,0.85,
+Records,R04430,percentage,missing_value,0.95,
+Records,R22664,percentage,missing_value,0.9,
+Records,R30250,percentage,missing_value,1.0,
+Records,R31389,percentage,missing_value,1.0,
+Records,R22601,percentage,missing_value,0.92,
+Records,R01048,percentage,missing_value,0.7333333333333333,
+Records,R07714,percentage,missing_value,0.85,
+Records,R09125,percentage,missing_value,0.8,
+Records,R00737,percentage,missing_value,1.0,
+Records,R29296,percentage,missing_value,0.9,
+Records,R14443,percentage,missing_value,1.0,
+Records,R10660,percentage,missing_value,0.9,
+Records,R21156,percentage,missing_value,0.9,
+Records,R31160,percentage,missing_value,0.9,
+Records,R16455,percentage,missing_value,0.7,
+Records,R13129,percentage,missing_value,0.88,
+Records,R09454,notes,missing_value,يحتاج متابعة,
+Records,R18518,notes,missing_value,أداء جيد جدا,
+Records,R29798,notes,missing_value,ممتاز جدا,
+Records,R34739,notes,missing_value,أداء جيد جدا,
+Records,R27582,notes,missing_value,أداء جيد,
+Records,R08550,notes,missing_value,أداء جيد جدا,
+Records,R24583,notes,missing_value,أداء جيد جدا,
+Records,R05268,notes,missing_value,أداء جيد جدا,
+Records,R22989,notes,missing_value,ممتاز جدا,
+Records,R03036,notes,missing_value,,
+Records,R08864,notes,missing_value,مستوى متوسط,
+Records,R34705,notes,missing_value,يحتاج متابعة,
+Records,R17272,notes,missing_value,أداء جيد جدا,
+Records,R28019,notes,missing_value,ممتاز جدا,
+Records,R03029,notes,missing_value,أداء جيد,
+Records,R33621,notes,missing_value,أداء جيد جدا,
+Records,R17932,notes,missing_value,أداء جيد جدا,
+Records,R25756,notes,missing_value,,
+Records,R09090,notes,missing_value,ممتاز جدا,
+Records,R34523,notes,missing_value,محتاج مراجعة على الدرس السابق,
+Records,R08555,notes,missing_value,أداء جيد جدا,
+Records,R15709,notes,missing_value,أداء جيد جدا,
+Records,R05208,notes,missing_value,أداء جيد,
+Records,R33611,notes,missing_value,ممتاز جدا,
+Records,R08654,notes,missing_value,أداء جيد جدا,
+Records,R00246,notes,missing_value,حل كل التمارين صح,
+Records,R25848,notes,missing_value,حل كل التمارين صح,
+Records,R03233,notes,missing_value,ضعيف,
+Records,R02388,notes,missing_value,يحتاج متابعة,
+Records,R11450,notes,missing_value,محتاج مراجعة على الدرس السابق,
+Records,R13520,notes,missing_value,أداء جيد جدا,
+Records,R03880,notes,missing_value,ممتاز جدا,
+Records,R31863,notes,missing_value,لازم ولي الأمر يتواصل,
+Records,R07209,notes,missing_value,مشاركة ممتازة في الحصة,
+Records,R18307,notes,missing_value,,
+Records,R14992,notes,missing_value,أداء جيد جدا,
+Records,R30069,notes,missing_value,ممتاز جدا,
+Records,R20803,notes,missing_value,ممتاز جدا,
+Records,R16312,notes,missing_value,أداء جيد,
+Records,R06298,notes,missing_value,أداء جيد جدا,
+Records,R19044,notes,missing_value,أداء جيد جدا,
+Records,R28270,notes,missing_value,أداء جيد جدا,
+Records,R11924,notes,missing_value,,
+Records,R08828,student_session_number,missing_value,1,
+Records,R11068,student_session_number,missing_value,1,
+Records,R19142,student_session_number,missing_value,11,
+Records,R22374,student_session_number,missing_value,34,
+Records,R18041,student_session_number,missing_value,33,
+Records,R01242,student_session_number,missing_value,13,
+Records,R05833,student_session_number,missing_value,16,
+Records,R03469,student_session_number,missing_value,27,
+Records,R34503,student_session_number,missing_value,27,
+Records,R10914,student_session_number,missing_value,30,
+Records,R06214,student_session_number,missing_value,33,
+Records,R14222,student_session_number,missing_value,23,
+Records,R15466,student_session_number,missing_value,4,
+Records,R00904,student_session_number,missing_value,34,
+Records,R26624,student_session_number,missing_value,23,
+Records,R22563,student_session_number,missing_value,7,
+Records,R25545,student_session_number,missing_value,17,
+Records,R28582,student_session_number,missing_value,34,
+Records,R14620,student_session_number,missing_value,5,
+Records,R14510,student_session_number,missing_value,1,
+Records,R10331,student_session_number,missing_value,34,
+Records,R03966,student_session_number,missing_value,13,
+Records,R00269,student_session_number,missing_value,11,
+Records,R07460,student_session_number,missing_value,20,
+Records,R29939,student_session_number,missing_value,17,
+Records,R02817,student_session_number,missing_value,35,
+Records,R20039,student_session_number,missing_value,9,
+Records,R31167,student_session_number,missing_value,2,
+Records,R34423,student_session_number,missing_value,24,
+Records,R21458,student_session_number,missing_value,28,
+Records,R19788,student_session_number,missing_value,35,
+Records,R06623,student_session_number,missing_value,17,
+Records,R02275,student_session_number,missing_value,17,
+Records,R17666,student_session_number,missing_value,16,
+Records,R27620,student_session_number,missing_value,27,
+Records,R14353,student_session_number,missing_value,29,
+Records,R27825,student_session_number,missing_value,19,
+Records,R16808,student_session_number,missing_value,19,
+Records,R23123,student_session_number,missing_value,33,
+Records,R14461,student_session_number,missing_value,34,
+Records,R22566,student_session_number,missing_value,7,
+Records,R00740,student_session_number,missing_value,28,
+Records,R10717,student_session_number,missing_value,19,
+Records,R19771,group_month,missing_value,9,
+Records,R09801,group_month,missing_value,3,
+Records,R01663,group_month,missing_value,8,
+Records,R04474,group_month,missing_value,9,
+Records,R25969,group_month,missing_value,9,
+Records,R06462,group_month,missing_value,3,
+Records,R00448,group_month,missing_value,5,
+Records,R23897,group_month,missing_value,7,
+Records,R26965,group_month,missing_value,9,
+Records,R11912,group_month,missing_value,9,
+Records,R28553,group_month,missing_value,8,
+Records,R10510,group_month,missing_value,2,
+Records,R06082,group_month,missing_value,7,
+Records,R09291,group_month,missing_value,6,
+Records,R14069,group_month,missing_value,4,
+Records,R12807,group_month,missing_value,9,
+Records,R06409,group_month,missing_value,2,
+Records,R31240,group_month,missing_value,1,
+Records,R18458,group_month,missing_value,5,
+Records,R26259,group_month,missing_value,3,
+Records,R29235,group_month,missing_value,6,
+Records,R11875,group_month,missing_value,9,
+Records,R16073,group_month,missing_value,7,
+Records,R31842,group_month,missing_value,7,
+Records,R04427,group_month,missing_value,9,
+Records,R14731,group_month,missing_value,3,
+Records,R25898,group_month,missing_value,8,
+Records,R05866,group_month,missing_value,5,
+Records,R30593,group_month,missing_value,3,
+Records,R14763,group_month,missing_value,3,
+Records,R33038,group_month,missing_value,1,
+Records,R17207,group_month,missing_value,9,
+Records,R25266,group_month,missing_value,2,
+Records,R25367,group_month,missing_value,3,
+Records,R09744,group_month,missing_value,2,
+Records,R00779,group_month,missing_value,8,
+Records,R09131,group_month,missing_value,4,
+Records,R16276,group_month,missing_value,9,
+Records,R12965,group_month,missing_value,2,
+Records,R06508,group_month,missing_value,3,
+Records,R34380,group_month,missing_value,6,
+Records,R09223,group_month,missing_value,5,
+Records,R07810,group_month,missing_value,9,
+Records,R27706,group_session,missing_value,30,
+Records,R19088,group_session,missing_value,9,
+Records,R14459,group_session,missing_value,34,
+Records,R23261,group_session,missing_value,3,
+Records,R03074,group_session,missing_value,10,
+Records,R09594,group_session,missing_value,1,
+Records,R24911,group_session,missing_value,27,
+Records,R09856,group_session,missing_value,13,
+Records,R15075,group_session,missing_value,24,
+Records,R17290,group_session,missing_value,36,
+Records,R17177,group_session,missing_value,32,
+Records,R04282,group_session,missing_value,27,
+Records,R03899,group_session,missing_value,10,
+Records,R04938,group_session,missing_value,17,
+Records,R10073,group_session,missing_value,22,
+Records,R05905,group_session,missing_value,19,
+Records,R20666,group_session,missing_value,33,
+Records,R05411,group_session,missing_value,33,
+Records,R28421,group_session,missing_value,26,
+Records,R22145,group_session,missing_value,23,
+Records,R26988,group_session,missing_value,36,
+Records,R00608,group_session,missing_value,23,
+Records,R18079,group_session,missing_value,34,
+Records,R31420,group_session,missing_value,11,
+Records,R24490,group_session,missing_value,12,
+Records,R06424,group_session,missing_value,7,
+Records,R22571,group_session,missing_value,7,
+Records,R28660,group_session,missing_value,1,
+Records,R15031,group_session,missing_value,22,
+Records,R08350,group_session,missing_value,19,
+Records,R05437,group_session,missing_value,34,
+Records,R11224,group_session,missing_value,7,
+Records,R18397,group_session,missing_value,14,
+Records,R02112,group_session,missing_value,11,
+Records,R32358,group_session,missing_value,12,
+Records,R30254,group_session,missing_value,32,
+Records,R09833,group_session,missing_value,12,
+Records,R31311,group_session,missing_value,7,
+Records,R15175,group_session,missing_value,28,
+Records,R33085,group_session,missing_value,4,
+Records,R32372,group_session,missing_value,12,
+Records,R08756,group_session,missing_value,34,
+Records,R29086,group_session,missing_value,18,
+Records,R09790,student_month,missing_value,3,
+Records,R19340,student_month,missing_value,5,
+Records,R27910,student_month,missing_value,1,
+Records,R28944,student_month,missing_value,3,
+Records,R08550,student_month,missing_value,7,
+Records,R27063,student_month,missing_value,1,
+Records,R04592,student_month,missing_value,1,
+Records,R09582,student_month,missing_value,1,
+Records,R01425,student_month,missing_value,6,
+Records,R25137,student_month,missing_value,9,
+Records,R24349,student_month,missing_value,2,
+Records,R33511,student_month,missing_value,6,
+Records,R10969,student_month,missing_value,8,
+Records,R29238,student_month,missing_value,6,
+Records,R33058,student_month,missing_value,1,
+Records,R29230,student_month,missing_value,6,
+Records,R12198,student_month,missing_value,3,
+Records,R29681,student_month,missing_value,1,
+Records,R25525,student_month,missing_value,4,
+Records,R24705,student_month,missing_value,5,
+Records,R23917,student_month,missing_value,7,
+Records,R26093,student_month,missing_value,1,
+Records,R25195,student_month,missing_value,1,
+Records,R14955,student_month,missing_value,5,
+Records,R11193,student_month,missing_value,2,
+Records,R28121,student_month,missing_value,3,
+Records,R12689,student_month,missing_value,8,
+Records,R26287,student_month,missing_value,3,
+Records,R11531,student_month,missing_value,6,
+Records,R10712,student_month,missing_value,5,
+Records,R09593,student_month,missing_value,1,
+Records,R30772,student_month,missing_value,5,
+Records,R27040,student_month,missing_value,1,
+Records,R33589,student_month,missing_value,7,
+Records,R16216,student_month,missing_value,9,
+Records,R12395,student_month,missing_value,5,
+Records,R25802,student_month,missing_value,7,
+Records,R33700,student_month,missing_value,9,
+Records,R32924,student_month,missing_value,9,
+Records,R11776,student_month,missing_value,8,
+Records,R06375,student_month,missing_value,1,
+Records,R24812,student_month,missing_value,6,
+Records,R15771,student_month,missing_value,4,
+Records,R17965,student_session,missing_value,2,
+Records,R09162,student_session,missing_value,4,
+Records,R28132,student_session,missing_value,1,
+Records,R11742,student_session,missing_value,4,
+Records,R15465,student_session,missing_value,4,
+Records,R21270,student_session,missing_value,1,
+Records,R06917,student_session,missing_value,1,
+Records,R12597,student_session,missing_value,2,
+Records,R05892,student_session,missing_value,2,
+Records,R26658,student_session,missing_value,4,
+Records,R30639,student_session,missing_value,1,
+Records,R13713,student_session,missing_value,1,
+Records,R26356,student_session,missing_value,1,
+Records,R00602,student_session,missing_value,3,
+Records,R26492,student_session,missing_value,2,
+Records,R13193,student_session,missing_value,3,
+Records,R31835,student_session,missing_value,3,
+Records,R02301,student_session,missing_value,1,
+Records,R06543,student_session,missing_value,1,
+Records,R12066,student_session,missing_value,1,
+Records,R21717,student_session,missing_value,3,
+Records,R33351,student_session,missing_value,1,
+Records,R15802,student_session,missing_value,2,
+Records,R21637,student_session,missing_value,3,
+Records,R03494,student_session,missing_value,4,
+Records,R31307,student_session,missing_value,3,
+Records,R28854,student_session,missing_value,1,
+Records,R02071,student_session,missing_value,2,
+Records,R13759,student_session,missing_value,3,
+Records,R22052,student_session,missing_value,2,
+Records,R11540,student_session,missing_value,3,
+Records,R16830,student_session,missing_value,4,
+Records,R01832,student_session,missing_value,1,
+Records,R31683,student_session,missing_value,1,
+Records,R10886,student_session,missing_value,4,
+Records,R19191,student_session,missing_value,1,
+Records,R32108,student_session,missing_value,1,
+Records,R27504,student_session,missing_value,2,
+Records,R03653,student_session,missing_value,3,
+Records,R25919,student_session,missing_value,1,
+Records,R28478,student_session,missing_value,1,
+Records,R18190,student_session,missing_value,4,
+Records,R08826,student_session,missing_value,1,
+Records,R02363,attendance_notes,missing_value,,
+Records,R23461,attendance_notes,missing_value,بدون عذر,
+Records,R02938,attendance_notes,missing_value,,
+Records,R25214,attendance_notes,missing_value,,
+Records,R25672,attendance_notes,missing_value,,
+Records,R06685,attendance_notes,missing_value,,
+Records,R09322,attendance_notes,missing_value,,
+Records,R05466,attendance_notes,missing_value,,
+Records,R12824,attendance_notes,missing_value,,
+Records,R29649,attendance_notes,missing_value,,
+Records,R22098,attendance_notes,missing_value,,
+Records,R05668,attendance_notes,missing_value,,
+Records,R21520,attendance_notes,missing_value,,
+Records,R30848,attendance_notes,missing_value,,
+Records,R24874,attendance_notes,missing_value,,
+Records,R00807,attendance_notes,missing_value,,
+Records,R09128,attendance_notes,missing_value,,
+Records,R34340,attendance_notes,missing_value,,
+Records,R31512,attendance_notes,missing_value,,
+Records,R10832,attendance_notes,missing_value,,
+Records,R23975,attendance_notes,missing_value,,
+Records,R23672,attendance_notes,missing_value,,
+Records,R09376,attendance_notes,missing_value,,
+Records,R02815,attendance_notes,missing_value,,
+Records,R12253,attendance_notes,missing_value,سفر,
+Records,R10785,attendance_notes,missing_value,,
+Records,R10886,attendance_notes,missing_value,نسي الميعاد,
+Records,R00118,attendance_notes,missing_value,,
+Records,R10789,attendance_notes,missing_value,,
+Records,R06206,attendance_notes,missing_value,,
+Records,R24468,attendance_notes,missing_value,,
+Records,R27064,attendance_notes,missing_value,,
+Records,R22206,attendance_notes,missing_value,,
+Records,R04560,attendance_notes,missing_value,,
+Records,R30285,attendance_notes,missing_value,,
+Records,R13722,attendance_notes,missing_value,,
+Records,R16671,attendance_notes,missing_value,,
+Records,R12821,attendance_notes,missing_value,,
+Records,R22658,attendance_notes,missing_value,,
+Records,R31485,attendance_notes,missing_value,,
+Records,R20914,attendance_notes,missing_value,,
+Records,R05875,attendance_notes,missing_value,,
+Records,R15449,attendance_notes,missing_value,,
+Records,R23274,homework,trailing_space,ممتاز,ممتاز 
+Records,R06712,homework,trailing_space,ممتاز,ممتاز 
+Records,R01547,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R33260,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R08186,homework,trailing_space,ضعيف,ضعيف 
+Records,R03394,homework,trailing_space,مقبول,مقبول 
+Records,R29350,homework,trailing_space,ممتاز,ممتاز 
+Records,R22129,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R33243,homework,trailing_space,جيد,جيد 
+Records,R34017,homework,trailing_space,ممتاز,ممتاز 
+Records,R05744,homework,trailing_space,ممتاز,ممتاز 
+Records,R06668,homework,trailing_space,جيد,جيد 
+Records,R09973,homework,trailing_space,ممتاز,ممتاز 
+Records,R04709,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R15217,homework,trailing_space,ممتاز,ممتاز 
+Records,R19619,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R18459,homework,trailing_space,ممتاز,ممتاز 
+Records,R21709,homework,trailing_space,ممتاز,ممتاز 
+Records,R16190,homework,trailing_space,ممتاز,ممتاز 
+Records,R31780,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R03778,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R01940,homework,trailing_space,جيد,جيد 
+Records,R29392,homework,trailing_space,ممتاز,ممتاز 
+Records,R07969,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R08133,homework,trailing_space,ممتاز,ممتاز 
+Records,R05276,homework,trailing_space,ممتاز,ممتاز 
+Records,R13954,homework,trailing_space,مقبول,مقبول 
+Records,R02412,homework,trailing_space,ممتاز,ممتاز 
+Records,R30561,homework,trailing_space,ممتاز,ممتاز 
+Records,R08173,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R20520,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R20766,homework,trailing_space,مقبول,مقبول 
+Records,R12234,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R27604,homework,trailing_space,جيد,جيد 
+Records,R31469,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R05260,homework,trailing_space,ممتاز,ممتاز 
+Records,R31381,homework,trailing_space,ضعيف,ضعيف 
+Records,R01719,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R18234,homework,trailing_space,ممتاز,ممتاز 
+Records,R19226,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R30252,homework,trailing_space,جيد,جيد 
+Records,R13957,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R22801,homework,trailing_space,جيد,جيد 
+Records,R26059,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R05097,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R21386,homework,trailing_space,ممتاز,ممتاز 
+Records,R06755,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R24844,homework,trailing_space,جيد,جيد 
+Records,R29064,homework,trailing_space,ضعيف,ضعيف 
+Records,R11894,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R05649,homework,trailing_space,جيد,جيد 
+Records,R32768,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R25671,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R04954,homework,trailing_space,مقبول,مقبول 
+Records,R07690,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R25350,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R21102,homework,trailing_space,ممتاز,ممتاز 
+Records,R04986,homework,trailing_space,جيد,جيد 
+Records,R17613,homework,trailing_space,مقبول,مقبول 
+Records,R17277,homework,trailing_space,جيد,جيد 
+Records,R23740,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R11196,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R07335,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R22534,homework,trailing_space,ممتاز,ممتاز 
+Records,R07606,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R29450,homework,trailing_space,ضعيف,ضعيف 
+Records,R25160,homework,trailing_space,ممتاز,ممتاز 
+Records,R29703,homework,trailing_space,جيد,جيد 
+Records,R12574,homework,trailing_space,جيد,جيد 
+Records,R30374,homework,trailing_space,جيد,جيد 
+Records,R01791,homework,trailing_space,ممتاز,ممتاز 
+Records,R27886,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R26588,homework,trailing_space,جيد,جيد 
+Records,R16664,homework,trailing_space,جيد,جيد 
+Records,R30862,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R32626,homework,trailing_space,ممتاز,ممتاز 
+Records,R09870,homework,trailing_space,مقبول,مقبول 
+Records,R33765,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R19457,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R32163,homework,trailing_space,ممتاز,ممتاز 
+Records,R24509,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R28943,homework,trailing_space,جيد,جيد 
+Records,R22454,homework,trailing_space,ممتاز,ممتاز 
+Records,R03864,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R11363,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R10085,homework,trailing_space,ممتاز,ممتاز 
+Records,R06017,homework,trailing_space,ممتاز,ممتاز 
+Records,R17086,homework,trailing_space,جيد,جيد 
+Records,R31170,homework,trailing_space,جيد,جيد 
+Records,R26445,homework,trailing_space,ممتاز,ممتاز 
+Records,R23805,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R17562,homework,trailing_space,ممتاز,ممتاز 
+Records,R33254,homework,trailing_space,ممتاز,ممتاز 
+Records,R21784,homework,trailing_space,جيد,جيد 
+Records,R00812,homework,trailing_space,ممتاز,ممتاز 
+Records,R04786,homework,trailing_space,ضعيف,ضعيف 
+Records,R07852,homework,trailing_space,جيد,جيد 
+Records,R07962,homework,trailing_space,ممتاز,ممتاز 
+Records,R32619,homework,trailing_space,ممتاز,ممتاز 
+Records,R25979,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R04997,homework,trailing_space,ممتاز,ممتاز 
+Records,R28922,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R00582,homework,trailing_space,مقبول,مقبول 
+Records,R10021,homework,trailing_space,ممتاز,ممتاز 
+Records,R11024,homework,trailing_space,جيد,جيد 
+Records,R09920,homework,trailing_space,جيد,جيد 
+Records,R08116,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R12566,homework,trailing_space,مقبول,مقبول 
+Records,R33903,homework,trailing_space,جيد,جيد 
+Records,R29619,homework,trailing_space,جيد,جيد 
+Records,R19219,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R13075,homework,trailing_space,ممتاز,ممتاز 
+Records,R34533,homework,trailing_space,ممتاز,ممتاز 
+Records,R11976,homework,trailing_space,جيد,جيد 
+Records,R10399,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R01755,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R16817,homework,trailing_space,مقبول,مقبول 
+Records,R23024,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R19294,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R00759,homework,trailing_space,ممتاز,ممتاز 
+Records,R06944,homework,trailing_space,مقبول,مقبول 
+Records,R10880,homework,trailing_space,جيد,جيد 
+Records,R11279,homework,trailing_space,ممتاز,ممتاز 
+Records,R29480,homework,trailing_space,ممتاز,ممتاز 
+Records,R19442,homework,trailing_space,ممتاز,ممتاز 
+Records,R30465,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R29798,homework,trailing_space,مقبول,مقبول 
+Records,R19430,homework,trailing_space,جيد,جيد 
+Records,R09194,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R12475,homework,trailing_space,جيد,جيد 
+Records,R17374,homework,trailing_space,مقبول,مقبول 
+Records,R08844,homework,trailing_space,ممتاز,ممتاز 
+Records,R07021,homework,trailing_space,مقبول,مقبول 
+Records,R22885,homework,trailing_space,مقبول,مقبول 
+Records,R17605,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R10916,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R19837,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R34655,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R24025,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R29042,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R31682,homework,trailing_space,ممتاز,ممتاز 
+Records,R06262,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R15348,homework,trailing_space,ممتاز,ممتاز 
+Records,R13792,homework,trailing_space,جيد,جيد 
+Records,R19214,homework,trailing_space,جيد,جيد 
+Records,R28545,homework,trailing_space,ممتاز,ممتاز 
+Records,R13339,homework,trailing_space,جيد,جيد 
+Records,R14835,homework,trailing_space,ضعيف,ضعيف 
+Records,R10114,homework,trailing_space,جيد,جيد 
+Records,R13868,homework,trailing_space,ضعيف,ضعيف 
+Records,R24428,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R04878,homework,trailing_space,ممتاز,ممتاز 
+Records,R28748,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R31382,homework,trailing_space,ممتاز,ممتاز 
+Records,R30244,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R12568,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R17105,homework,trailing_space,ممتاز,ممتاز 
+Records,R07188,homework,trailing_space,جيد,جيد 
+Records,R10231,homework,trailing_space,ممتاز,ممتاز 
+Records,R26272,homework,trailing_space,جيد,جيد 
+Records,R25320,homework,trailing_space,جيد,جيد 
+Records,R26548,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R13708,homework,trailing_space,جيد,جيد 
+Records,R01104,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R23832,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R16373,homework,trailing_space,ممتاز,ممتاز 
+Records,R29304,homework,trailing_space,ممتاز,ممتاز 
+Records,R13668,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R10084,homework,trailing_space,ممتاز,ممتاز 
+Records,R03443,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R00616,homework,trailing_space,ممتاز,ممتاز 
+Records,R21723,homework,trailing_space,مقبول,مقبول 
+Records,R23539,homework,trailing_space,جيد,جيد 
+Records,R06823,homework,trailing_space,جيد,جيد 
+Records,R12855,homework,trailing_space,جيد,جيد 
+Records,R33414,homework,trailing_space,جيد,جيد 
+Records,R15400,homework,trailing_space,ممتاز,ممتاز 
+Records,R12339,homework,trailing_space,ممتاز,ممتاز 
+Records,R20954,homework,trailing_space,جيد,جيد 
+Records,R25600,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R05071,homework,trailing_space,ممتاز,ممتاز 
+Records,R00865,homework,trailing_space,ضعيف,ضعيف 
+Records,R02862,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R11982,homework,trailing_space,جيد,جيد 
+Records,R23722,homework,trailing_space,ممتاز,ممتاز 
+Records,R30232,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R30795,homework,trailing_space,جيد,جيد 
+Records,R31072,homework,trailing_space,ضعيف,ضعيف 
+Records,R01027,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R31684,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R11712,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R12022,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R26714,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R16042,homework,trailing_space,ممتاز,ممتاز 
+Records,R20255,homework,trailing_space,ممتاز,ممتاز 
+Records,R16276,homework,trailing_space,ممتاز,ممتاز 
+Records,R17035,homework,trailing_space,جيد,جيد 
+Records,R11247,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R26945,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R05849,homework,trailing_space,ممتاز,ممتاز 
+Records,R33738,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R08593,homework,trailing_space,جيد,جيد 
+Records,R04619,homework,trailing_space,ممتاز,ممتاز 
+Records,R00846,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R03219,homework,trailing_space,جيد,جيد 
+Records,R08303,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R03658,homework,trailing_space,ضعيف,ضعيف 
+Records,R25603,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R07044,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R03379,homework,trailing_space,ممتاز,ممتاز 
+Records,R34565,homework,trailing_space,ضعيف,ضعيف 
+Records,R10638,homework,trailing_space,ممتاز,ممتاز 
+Records,R14709,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R15303,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R29269,homework,trailing_space,ممتاز,ممتاز 
+Records,R02196,homework,trailing_space,جيد,جيد 
+Records,R30645,homework,trailing_space,ممتاز,ممتاز 
+Records,R15023,homework,trailing_space,ممتاز,ممتاز 
+Records,R08872,homework,trailing_space,جيد,جيد 
+Records,R19308,homework,trailing_space,جيد,جيد 
+Records,R02618,homework,trailing_space,جيد,جيد 
+Records,R32701,homework,trailing_space,جيد,جيد 
+Records,R26215,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R11788,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R16545,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R09910,homework,trailing_space,جيد,جيد 
+Records,R33264,homework,trailing_space,ممتاز,ممتاز 
+Records,R17200,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R19934,homework,trailing_space,ممتاز,ممتاز 
+Records,R30204,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R18173,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R13863,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R01919,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R21103,homework,trailing_space,ممتاز,ممتاز 
+Records,R13860,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R14495,homework,trailing_space,جيد,جيد 
+Records,R14416,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R12174,homework,trailing_space,ممتاز,ممتاز 
+Records,R24203,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R12044,homework,trailing_space,ممتاز,ممتاز 
+Records,R34029,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R14415,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R22696,homework,trailing_space,ممتاز,ممتاز 
+Records,R16328,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R04558,homework,trailing_space,ممتاز,ممتاز 
+Records,R33665,homework,trailing_space,جيد,جيد 
+Records,R32865,homework,trailing_space,ممتاز,ممتاز 
+Records,R09131,homework,trailing_space,ممتاز,ممتاز 
+Records,R14917,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R05493,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R20621,homework,trailing_space,ممتاز,ممتاز 
+Records,R17074,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R23898,homework,trailing_space,ممتاز,ممتاز 
+Records,R27893,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R07861,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R14698,homework,trailing_space,جيد,جيد 
+Records,R00789,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R28029,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R17117,homework,trailing_space,جيد,جيد 
+Records,R22941,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R34749,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R32312,homework,trailing_space,مقبول,مقبول 
+Records,R08765,homework,trailing_space,ممتاز,ممتاز 
+Records,R26872,homework,trailing_space,مقبول,مقبول 
+Records,R19596,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R17053,homework,trailing_space,مقبول,مقبول 
+Records,R11892,homework,trailing_space,ممتاز,ممتاز 
+Records,R25543,homework,trailing_space,ممتاز,ممتاز 
+Records,R12119,homework,trailing_space,مقبول,مقبول 
+Records,R32030,homework,trailing_space,جيد,جيد 
+Records,R32199,homework,trailing_space,مقبول,مقبول 
+Records,R31138,homework,trailing_space,جيد,جيد 
+Records,R18199,homework,trailing_space,ممتاز,ممتاز 
+Records,R27218,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R29193,homework,trailing_space,جيد,جيد 
+Records,R31238,homework,trailing_space,ممتاز,ممتاز 
+Records,R34618,homework,trailing_space,مقبول,مقبول 
+Records,R04083,homework,trailing_space,ضعيف,ضعيف 
+Records,R25473,homework,trailing_space,جيد,جيد 
+Records,R10930,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R26810,homework,trailing_space,جيد,جيد 
+Records,R23956,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R31690,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R01687,homework,trailing_space,ممتاز,ممتاز 
+Records,R08113,homework,trailing_space,جيد,جيد 
+Records,R30184,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R02561,homework,trailing_space,ممتاز,ممتاز 
+Records,R01670,homework,trailing_space,ضعيف,ضعيف 
+Records,R00328,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R24143,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R17313,homework,trailing_space,جيد,جيد 
+Records,R24780,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R00740,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R20528,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R20198,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R20927,homework,trailing_space,ممتاز,ممتاز 
+Records,R08880,homework,trailing_space,مقبول,مقبول 
+Records,R33257,homework,trailing_space,ممتاز,ممتاز 
+Records,R06629,homework,trailing_space,جيد,جيد 
+Records,R03448,homework,trailing_space,جيد,جيد 
+Records,R11250,homework,trailing_space,جيد,جيد 
+Records,R30121,homework,trailing_space,مقبول,مقبول 
+Records,R27830,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R04940,homework,trailing_space,ممتاز,ممتاز 
+Records,R12381,homework,trailing_space,ممتاز,ممتاز 
+Records,R27609,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R29340,homework,trailing_space,جيد,جيد 
+Records,R09793,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R20756,homework,trailing_space,مقبول,مقبول 
+Records,R12275,homework,trailing_space,جيد,جيد 
+Records,R06681,homework,trailing_space,ممتاز,ممتاز 
+Records,R14452,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R12590,homework,trailing_space,ممتاز,ممتاز 
+Records,R18053,homework,trailing_space,ممتاز,ممتاز 
+Records,R00447,homework,trailing_space,مقبول,مقبول 
+Records,R21501,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R11992,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R08356,homework,trailing_space,جيد,جيد 
+Records,R09883,homework,trailing_space,ممتاز,ممتاز 
+Records,R10427,homework,trailing_space,جيد,جيد 
+Records,R18740,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R34469,homework,trailing_space,ممتاز,ممتاز 
+Records,R32005,homework,trailing_space,ممتاز,ممتاز 
+Records,R08870,homework,trailing_space,جيد,جيد 
+Records,R11332,homework,trailing_space,ممتاز,ممتاز 
+Records,R11035,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R19638,homework,trailing_space,ممتاز,ممتاز 
+Records,R23503,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R04870,homework,trailing_space,جيد,جيد 
+Records,R01962,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R23323,homework,trailing_space,جيد,جيد 
+Records,R31380,homework,trailing_space,ممتاز,ممتاز 
+Records,R26585,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R34046,homework,trailing_space,جيد,جيد 
+Records,R21342,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R27294,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R26225,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R15686,homework,trailing_space,ممتاز,ممتاز 
+Records,R23004,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R23339,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R05472,homework,trailing_space,ممتاز,ممتاز 
+Records,R21505,homework,trailing_space,لم يسلم,لم يسلم 
+Records,R27269,homework,trailing_space,ممتاز,ممتاز 
+Records,R32836,homework,trailing_space,ممتاز,ممتاز 
+Records,R31265,homework,trailing_space,جيد جدا,جيد جدا 
+Records,R01487,homework,trailing_space,مقبول,مقبول 
+Records,R22247,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R08618,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R08268,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R07963,notes,trailing_space,, 
+Records,R06936,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R04882,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R13399,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01457,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R32818,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01686,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R01196,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R30399,notes,trailing_space,تحسن ملحوظ,تحسن ملحوظ 
+Records,R20441,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R21785,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R01032,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R16262,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01218,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R06483,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R26500,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R00697,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R06216,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R13938,notes,trailing_space,تحسن ملحوظ,تحسن ملحوظ 
+Records,R25567,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R13141,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R17501,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R23694,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R32232,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R24432,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R14428,notes,trailing_space,, 
+Records,R00403,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R05043,notes,trailing_space,ضعيف,ضعيف 
+Records,R16363,notes,trailing_space,ضعيف,ضعيف 
+Records,R08307,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R16380,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R00730,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R09593,notes,trailing_space,, 
+Records,R05871,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R33595,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R19607,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R16444,notes,trailing_space,لازم يركز أكتر,لازم يركز أكتر 
+Records,R06034,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R18195,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R23477,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R24718,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R12947,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R23028,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R26429,notes,trailing_space,مستواه مستقر,مستواه مستقر 
+Records,R27254,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R24411,notes,trailing_space,, 
+Records,R29453,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R16339,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R34545,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R11059,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R32297,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R00930,notes,trailing_space,ضعيف,ضعيف 
+Records,R24884,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R09952,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R18364,notes,trailing_space,مشاركة ممتازة في الحصة,مشاركة ممتازة في الحصة 
+Records,R02034,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R08802,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R33238,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R12336,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R05211,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R03732,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R16978,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R29939,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R03899,notes,trailing_space,محتاج مراجعة على الدرس السابق,محتاج مراجعة على الدرس السابق 
+Records,R31775,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R03280,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R24441,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R24795,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R31238,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R29434,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R34028,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01301,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R02549,notes,trailing_space,, 
+Records,R23749,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R30858,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R22224,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R03705,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R02670,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R31839,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R04386,notes,trailing_space,, 
+Records,R23107,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R01095,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R24921,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R03720,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R20823,notes,trailing_space,كثير الكلام في الحصة,كثير الكلام في الحصة 
+Records,R04091,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R07658,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R04879,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R05181,notes,trailing_space,, 
+Records,R12942,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R23814,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R28295,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R12411,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R18577,notes,trailing_space,, 
+Records,R29049,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R25191,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R12738,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R20681,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R14415,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R03977,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R31253,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R04469,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R21783,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R19150,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R25881,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R22210,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R23729,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R29290,notes,trailing_space,, 
+Records,R19712,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R31984,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R26378,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R04145,notes,trailing_space,, 
+Records,R33906,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R12811,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R28081,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R23447,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R27348,notes,trailing_space,ضعيف,ضعيف 
+Records,R31908,notes,trailing_space,ضعيف,ضعيف 
+Records,R22108,notes,trailing_space,, 
+Records,R03979,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R00201,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R12432,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R33559,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R23719,notes,trailing_space,مشاركة ممتازة في الحصة,مشاركة ممتازة في الحصة 
+Records,R03846,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R13778,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R10767,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R22776,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R05423,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R15887,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R27496,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R25790,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01325,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R30561,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R11420,notes,trailing_space,, 
+Records,R22951,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R26862,notes,trailing_space,, 
+Records,R20694,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R30562,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R20457,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R06952,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R19937,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R33734,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R16942,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R22744,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01504,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R00831,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R21024,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R01436,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R14172,notes,trailing_space,, 
+Records,R17450,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R32099,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R16683,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R22761,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01774,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R24434,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R19382,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R02584,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R19033,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R16731,notes,trailing_space,ضعيف,ضعيف 
+Records,R21381,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R15440,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R18491,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R23451,notes,trailing_space,ضعيف,ضعيف 
+Records,R14043,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R06986,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R10983,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R18714,notes,trailing_space,مشاركة ممتازة في الحصة,مشاركة ممتازة في الحصة 
+Records,R29839,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R11856,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R01999,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R13845,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R33022,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R12690,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R08821,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R05467,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R09691,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R31616,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R07889,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R13668,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R09035,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R31673,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R04933,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R01746,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R24731,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R26229,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R15506,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R34669,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R11323,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R04743,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R13624,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R02010,notes,trailing_space,, 
+Records,R20871,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R11895,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R02356,notes,trailing_space,مشاركة ممتازة في الحصة,مشاركة ممتازة في الحصة 
+Records,R25321,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R01296,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R08631,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R19865,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R30844,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R31073,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R19282,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R24408,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R02012,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R29956,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R27265,notes,trailing_space,كثير الكلام في الحصة,كثير الكلام في الحصة 
+Records,R09637,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R12743,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R22384,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R09266,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R05835,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R14671,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R23756,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R25752,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R24420,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R02493,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R32293,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R08477,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R33572,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R03850,notes,trailing_space,, 
+Records,R19362,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R31502,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R02636,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R19491,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R18965,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R28663,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R28053,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R06488,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R06643,notes,trailing_space,مشاركة ممتازة في الحصة,مشاركة ممتازة في الحصة 
+Records,R02485,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R11626,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R31724,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R05273,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R02719,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R06257,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R29468,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R02128,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R24585,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R14649,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R28375,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R02788,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R29262,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R19384,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R26201,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R09827,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R30365,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R22587,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R25736,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R05798,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R14705,notes,trailing_space,كثير الكلام في الحصة,كثير الكلام في الحصة 
+Records,R32419,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R27859,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R23296,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R32204,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R02812,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R10102,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R22348,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R28753,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R24073,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R05758,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R33196,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R23610,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R25803,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R32381,notes,trailing_space,مستواه مستقر,مستواه مستقر 
+Records,R25031,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R29491,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R32919,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R18492,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R34435,notes,trailing_space,كثير الكلام في الحصة,كثير الكلام في الحصة 
+Records,R32467,notes,trailing_space,, 
+Records,R01251,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R04378,notes,trailing_space,, 
+Records,R32254,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R11370,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R26696,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R31228,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R34507,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R34352,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R09709,notes,trailing_space,ضعيف,ضعيف 
+Records,R17287,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R02573,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R21987,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R10793,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R13526,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R12163,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R09023,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R03946,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R09464,notes,trailing_space,ضعيف,ضعيف 
+Records,R18005,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R30175,notes,trailing_space,ضعيف,ضعيف 
+Records,R27088,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R31106,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R32883,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R26820,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R19907,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R00042,notes,trailing_space,, 
+Records,R16417,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R19639,notes,trailing_space,, 
+Records,R00824,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R23487,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R27219,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R07042,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R23191,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R23862,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R23196,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R21677,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R34603,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R24554,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R13537,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R34358,notes,trailing_space,ضعيف,ضعيف 
+Records,R32264,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R18630,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R04523,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R14994,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R27605,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R28931,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R17628,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R05127,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R24906,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R18535,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R34343,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R03450,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R21540,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R24208,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R17506,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R07488,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R01964,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R14729,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R16938,notes,trailing_space,أداء جيد,أداء جيد 
+Records,R23465,notes,trailing_space,حل كل التمارين صح,حل كل التمارين صح 
+Records,R11773,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R18386,notes,trailing_space,طالب متميز,طالب متميز 
+Records,R28559,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R14802,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R06875,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R23771,notes,trailing_space,يحتاج متابعة,يحتاج متابعة 
+Records,R05125,notes,trailing_space,, 
+Records,R10617,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R04961,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R32853,notes,trailing_space,أداء جيد جدا,أداء جيد جدا 
+Records,R18128,notes,trailing_space,ممتاز جدا,ممتاز جدا 
+Records,R30620,notes,trailing_space,مستوى متوسط,مستوى متوسط 
+Records,R03947,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R00478,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R01288,attendance,inconsistent_case_or_space,present,present 
+Records,R16333,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R01738,attendance,inconsistent_case_or_space,present,Present
+Records,R09640,attendance,inconsistent_case_or_space,present,Present
+Records,R15339,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R26332,attendance,inconsistent_case_or_space,excused,Excused
+Records,R10134,attendance,inconsistent_case_or_space,present,present 
+Records,R30467,attendance,inconsistent_case_or_space,present,Present
+Records,R00726,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R19573,attendance,inconsistent_case_or_space,present,present 
+Records,R15635,attendance,inconsistent_case_or_space,present,Present
+Records,R03470,attendance,inconsistent_case_or_space,present,present 
+Records,R28645,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R20957,attendance,inconsistent_case_or_space,present,Present
+Records,R20206,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R23245,attendance,inconsistent_case_or_space,present,present 
+Records,R26212,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R03163,attendance,inconsistent_case_or_space,present,present 
+Records,R21195,attendance,inconsistent_case_or_space,present,Present
+Records,R20071,attendance,inconsistent_case_or_space,present,present 
+Records,R31717,attendance,inconsistent_case_or_space,present,Present
+Records,R29321,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R34288,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R12577,attendance,inconsistent_case_or_space,present,present 
+Records,R12575,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R28446,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R04824,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R17860,attendance,inconsistent_case_or_space,present,present 
+Records,R16026,attendance,inconsistent_case_or_space,present,present 
+Records,R02473,attendance,inconsistent_case_or_space,present,Present
+Records,R30111,attendance,inconsistent_case_or_space,present,Present
+Records,R27776,attendance,inconsistent_case_or_space,present,present 
+Records,R08806,attendance,inconsistent_case_or_space,late,late 
+Records,R01457,attendance,inconsistent_case_or_space,present,Present
+Records,R12019,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R19343,attendance,inconsistent_case_or_space,present,present 
+Records,R20674,attendance,inconsistent_case_or_space,present,present 
+Records,R25012,attendance,inconsistent_case_or_space,present,Present
+Records,R06771,attendance,inconsistent_case_or_space,present,Present
+Records,R22151,attendance,inconsistent_case_or_space,present,present 
+Records,R24701,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R07967,attendance,inconsistent_case_or_space,present,Present
+Records,R34323,attendance,inconsistent_case_or_space,present,Present
+Records,R14359,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R25258,attendance,inconsistent_case_or_space,present,present 
+Records,R28361,attendance,inconsistent_case_or_space,absent,Absent
+Records,R09855,attendance,inconsistent_case_or_space,present,present 
+Records,R24627,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R34231,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R21426,attendance,inconsistent_case_or_space,present,Present
+Records,R20511,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R01588,attendance,inconsistent_case_or_space,present,Present
+Records,R13833,attendance,inconsistent_case_or_space,present,Present
+Records,R06679,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R15481,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R04784,attendance,inconsistent_case_or_space,present,present 
+Records,R03065,attendance,inconsistent_case_or_space,present,present 
+Records,R31893,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R12320,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R24884,attendance,inconsistent_case_or_space,present,present 
+Records,R14070,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R24432,attendance,inconsistent_case_or_space,present,present 
+Records,R17391,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R11184,attendance,inconsistent_case_or_space,present,Present
+Records,R33296,attendance,inconsistent_case_or_space,present,Present
+Records,R01270,attendance,inconsistent_case_or_space,present,present 
+Records,R03219,attendance,inconsistent_case_or_space,present,present 
+Records,R30536,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R13878,attendance,inconsistent_case_or_space,present,Present
+Records,R18105,attendance,inconsistent_case_or_space,present,present 
+Records,R15170,attendance,inconsistent_case_or_space,present,Present
+Records,R28726,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R15685,attendance,inconsistent_case_or_space,present,present 
+Records,R17155,attendance,inconsistent_case_or_space,present,Present
+Records,R17456,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R14507,attendance,inconsistent_case_or_space,present,present 
+Records,R04723,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R12460,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R12065,attendance,inconsistent_case_or_space,present,present 
+Records,R34760,attendance,inconsistent_case_or_space,present,present 
+Records,R34355,attendance,inconsistent_case_or_space,present,Present
+Records,R27215,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R05174,attendance,inconsistent_case_or_space,present,Present
+Records,R17838,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R15623,attendance,inconsistent_case_or_space,present,Present
+Records,R34238,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R31714,attendance,inconsistent_case_or_space,present,present 
+Records,R11482,attendance,inconsistent_case_or_space,present,Present
+Records,R24347,attendance,inconsistent_case_or_space,present,Present
+Records,R19794,attendance,inconsistent_case_or_space,present,present 
+Records,R02536,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R07866,attendance,inconsistent_case_or_space,present,Present
+Records,R12627,attendance,inconsistent_case_or_space,present,present 
+Records,R29785,attendance,inconsistent_case_or_space,present,present 
+Records,R05834,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R04917,attendance,inconsistent_case_or_space,present,present 
+Records,R15825,attendance,inconsistent_case_or_space,present,present 
+Records,R06057,attendance,inconsistent_case_or_space,present,present 
+Records,R06021,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R32883,attendance,inconsistent_case_or_space,present,present 
+Records,R18346,attendance,inconsistent_case_or_space,present,present 
+Records,R00268,attendance,inconsistent_case_or_space,present,present 
+Records,R28066,attendance,inconsistent_case_or_space,present,Present
+Records,R33673,attendance,inconsistent_case_or_space,present,present 
+Records,R32190,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R12042,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R03120,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R27272,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R27210,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R06451,attendance,inconsistent_case_or_space,present,Present
+Records,R04978,attendance,inconsistent_case_or_space,present,Present
+Records,R11937,attendance,inconsistent_case_or_space,present,Present
+Records,R29934,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R29631,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R30873,attendance,inconsistent_case_or_space,present,present 
+Records,R15574,attendance,inconsistent_case_or_space,present,present 
+Records,R00905,attendance,inconsistent_case_or_space,present,present 
+Records,R03849,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R16226,attendance,inconsistent_case_or_space,present,present 
+Records,R05566,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R02050,attendance,inconsistent_case_or_space,present,Present
+Records,R02165,attendance,inconsistent_case_or_space,present,present 
+Records,R00748,attendance,inconsistent_case_or_space,present,present 
+Records,R23418,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R21659,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R08351,attendance,inconsistent_case_or_space,present,Present
+Records,R34447,attendance,inconsistent_case_or_space,present,present 
+Records,R24409,attendance,inconsistent_case_or_space,present,Present
+Records,R09308,attendance,inconsistent_case_or_space,present,present 
+Records,R29951,attendance,inconsistent_case_or_space,present,present 
+Records,R28964,attendance,inconsistent_case_or_space,present,present 
+Records,R22697,attendance,inconsistent_case_or_space,present,present 
+Records,R00460,attendance,inconsistent_case_or_space,present,Present
+Records,R11478,attendance,inconsistent_case_or_space,present,Present
+Records,R30117,attendance,inconsistent_case_or_space,present,present 
+Records,R23823,attendance,inconsistent_case_or_space,absent,absent 
+Records,R04969,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R32772,attendance,inconsistent_case_or_space,present,Present
+Records,R27077,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R10645,attendance,inconsistent_case_or_space,present,Present
+Records,R10824,attendance,inconsistent_case_or_space,present,Present
+Records,R29838,attendance,inconsistent_case_or_space,present,Present
+Records,R33235,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R07669,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R22146,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R21692,attendance,inconsistent_case_or_space,present,Present
+Records,R22060,attendance,inconsistent_case_or_space,present,Present
+Records,R24771,attendance,inconsistent_case_or_space,present,present 
+Records,R25423,attendance,inconsistent_case_or_space,present,present 
+Records,R27992,attendance,inconsistent_case_or_space,excused,Excused
+Records,R14951,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R08821,attendance,inconsistent_case_or_space,present,present 
+Records,R31695,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R12409,attendance,inconsistent_case_or_space,absent,absent 
+Records,R12733,attendance,inconsistent_case_or_space,present,Present
+Records,R32413,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R11511,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R30304,attendance,inconsistent_case_or_space,present,present 
+Records,R20056,attendance,inconsistent_case_or_space,present,present 
+Records,R26857,attendance,inconsistent_case_or_space,present,Present
+Records,R23381,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R33369,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R23957,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R17169,attendance,inconsistent_case_or_space,present,Present
+Records,R28032,attendance,inconsistent_case_or_space,present,present 
+Records,R00489,attendance,inconsistent_case_or_space,present,Present
+Records,R27172,attendance,inconsistent_case_or_space,present,Present
+Records,R10232,attendance,inconsistent_case_or_space,present,present 
+Records,R11309,attendance,inconsistent_case_or_space,present,present 
+Records,R17921,attendance,inconsistent_case_or_space,present,Present
+Records,R28688,attendance,inconsistent_case_or_space,present,Present
+Records,R18269,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R03906,attendance,inconsistent_case_or_space,present,Present
+Records,R23572,attendance,inconsistent_case_or_space,present,present 
+Records,R26739,attendance,inconsistent_case_or_space,present,present 
+Records,R16679,attendance,inconsistent_case_or_space,present,present 
+Records,R25154,attendance,inconsistent_case_or_space,present,present 
+Records,R24556,attendance,inconsistent_case_or_space,present,Present
+Records,R11931,attendance,inconsistent_case_or_space,late,LATE
+Records,R21593,attendance,inconsistent_case_or_space,present,present 
+Records,R33242,attendance,inconsistent_case_or_space,present,Present
+Records,R33213,attendance,inconsistent_case_or_space,present,present 
+Records,R08516,attendance,inconsistent_case_or_space,present,present 
+Records,R03099,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R23197,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R33139,attendance,inconsistent_case_or_space,present,present 
+Records,R02436,attendance,inconsistent_case_or_space,present,Present
+Records,R09508,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R00906,attendance,inconsistent_case_or_space,present,present 
+Records,R22518,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R14305,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R33962,attendance,inconsistent_case_or_space,present,Present
+Records,R22305,attendance,inconsistent_case_or_space,present,Present
+Records,R31788,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R32155,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R09879,attendance,inconsistent_case_or_space,present,Present
+Records,R26704,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R23680,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R16633,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R25348,attendance,inconsistent_case_or_space,present,present 
+Records,R10492,attendance,inconsistent_case_or_space,present,Present
+Records,R15217,attendance,inconsistent_case_or_space,present,Present
+Records,R20320,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R12459,attendance,inconsistent_case_or_space,present,present 
+Records,R16669,attendance,inconsistent_case_or_space,present,Present
+Records,R05080,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R32224,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R02477,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R21081,attendance,inconsistent_case_or_space,present,Present
+Records,R11628,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R01378,attendance,inconsistent_case_or_space,present,present 
+Records,R07581,attendance,inconsistent_case_or_space,present,present 
+Records,R05720,attendance,inconsistent_case_or_space,present,Present
+Records,R12922,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R14303,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R11772,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R20992,attendance,inconsistent_case_or_space,present,Present
+Records,R11301,attendance,inconsistent_case_or_space,excused,Excused
+Records,R18680,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R05889,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R02513,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R07645,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R21896,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R24687,attendance,inconsistent_case_or_space,present,Present
+Records,R27581,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R18094,attendance,inconsistent_case_or_space,present,Present
+Records,R01177,attendance,inconsistent_case_or_space,present,present 
+Records,R16090,attendance,inconsistent_case_or_space,present,present 
+Records,R03171,attendance,inconsistent_case_or_space,present,Present
+Records,R23125,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R34611,attendance,inconsistent_case_or_space,present,Present
+Records,R32989,attendance,inconsistent_case_or_space,present,Present
+Records,R05846,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R09154,attendance,inconsistent_case_or_space,present,Present
+Records,R16206,attendance,inconsistent_case_or_space,present,Present
+Records,R13543,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R32564,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R29895,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R27750,attendance,inconsistent_case_or_space,present,present 
+Records,R30959,attendance,inconsistent_case_or_space,excused,excused 
+Records,R27095,attendance,inconsistent_case_or_space,present,present 
+Records,R29377,attendance,inconsistent_case_or_space,present,present 
+Records,R16941,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R07161,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R05721,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R19329,attendance,inconsistent_case_or_space,present,Present
+Records,R21134,attendance,inconsistent_case_or_space,present,Present
+Records,R01293,attendance,inconsistent_case_or_space,present,present 
+Records,R03344,attendance,inconsistent_case_or_space,present,Present
+Records,R03047,attendance,inconsistent_case_or_space,present,present 
+Records,R29833,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R09955,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R22057,attendance,inconsistent_case_or_space,present,Present
+Records,R13219,attendance,inconsistent_case_or_space,present,Present
+Records,R13384,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R14234,attendance,inconsistent_case_or_space,present,Present
+Records,R13741,attendance,inconsistent_case_or_space,present,Present
+Records,R30392,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R00397,attendance,inconsistent_case_or_space,present,Present
+Records,R16993,attendance,inconsistent_case_or_space,present,present 
+Records,R15098,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R01603,attendance,inconsistent_case_or_space,present,present 
+Records,R28646,attendance,inconsistent_case_or_space,present,present 
+Records,R20709,attendance,inconsistent_case_or_space,present,Present
+Records,R03053,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R27839,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R21318,attendance,inconsistent_case_or_space,present,Present
+Records,R04253,attendance,inconsistent_case_or_space,late,Late
+Records,R07531,attendance,inconsistent_case_or_space,present,Present
+Records,R06292,attendance,inconsistent_case_or_space,present,Present
+Records,R28545,attendance,inconsistent_case_or_space,present,present 
+Records,R12735,attendance,inconsistent_case_or_space,present,present 
+Records,R08830,attendance,inconsistent_case_or_space,present,Present
+Records,R24504,attendance,inconsistent_case_or_space,present,Present
+Records,R23480,attendance,inconsistent_case_or_space,present,present 
+Records,R15617,attendance,inconsistent_case_or_space,present,present 
+Records,R05538,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R18049,attendance,inconsistent_case_or_space,present,present 
+Records,R27650,attendance,inconsistent_case_or_space,present,Present
+Records,R22004,attendance,inconsistent_case_or_space,late,Late
+Records,R32437,attendance,inconsistent_case_or_space,present,Present
+Records,R08058,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R27017,attendance,inconsistent_case_or_space,present,present 
+Records,R22289,attendance,inconsistent_case_or_space,present,present 
+Records,R23132,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R04120,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R30329,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R00552,attendance,inconsistent_case_or_space,present,Present
+Records,R03444,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R08103,attendance,inconsistent_case_or_space,present,Present
+Records,R02824,attendance,inconsistent_case_or_space,present,present 
+Records,R10504,attendance,inconsistent_case_or_space,present,present 
+Records,R10543,attendance,inconsistent_case_or_space,present,Present
+Records,R14554,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R19440,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R09841,attendance,inconsistent_case_or_space,late,late 
+Records,R15281,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R08342,attendance,inconsistent_case_or_space,absent,absent 
+Records,R09972,attendance,inconsistent_case_or_space,present,Present
+Records,R06563,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R29668,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R33026,attendance,inconsistent_case_or_space,present,present 
+Records,R02275,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R23858,attendance,inconsistent_case_or_space,present,present 
+Records,R09792,attendance,inconsistent_case_or_space,present,present 
+Records,R24910,attendance,inconsistent_case_or_space,present,present 
+Records,R20209,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R05592,attendance,inconsistent_case_or_space,absent,absent 
+Records,R16166,attendance,inconsistent_case_or_space,present,present 
+Records,R26008,attendance,inconsistent_case_or_space,present,present 
+Records,R16688,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R26310,attendance,inconsistent_case_or_space,present,Present
+Records,R23608,attendance,inconsistent_case_or_space,present,Present
+Records,R26118,attendance,inconsistent_case_or_space,present,Present
+Records,R08763,attendance,inconsistent_case_or_space,present,Present
+Records,R06518,attendance,inconsistent_case_or_space,present,Present
+Records,R06942,attendance,inconsistent_case_or_space,present,Present
+Records,R30116,attendance,inconsistent_case_or_space,present,Present
+Records,R31555,attendance,inconsistent_case_or_space,present,present 
+Records,R29477,attendance,inconsistent_case_or_space,present,present 
+Records,R21974,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R34002,attendance,inconsistent_case_or_space,present,Present
+Records,R33436,attendance,inconsistent_case_or_space,present,present 
+Records,R21813,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R26627,attendance,inconsistent_case_or_space,present,present 
+Records,R30449,attendance,inconsistent_case_or_space,present,present 
+Records,R21597,attendance,inconsistent_case_or_space,present,present 
+Records,R23611,attendance,inconsistent_case_or_space,absent,absent 
+Records,R03276,attendance,inconsistent_case_or_space,present,present 
+Records,R29916,attendance,inconsistent_case_or_space,present,Present
+Records,R03994,attendance,inconsistent_case_or_space,present,present 
+Records,R25895,attendance,inconsistent_case_or_space,present,present 
+Records,R34584,attendance,inconsistent_case_or_space,present,Present
+Records,R26404,attendance,inconsistent_case_or_space,present,present 
+Records,R15162,attendance,inconsistent_case_or_space,present,present 
+Records,R30163,attendance,inconsistent_case_or_space,absent,Absent
+Records,R07001,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R29298,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R24892,attendance,inconsistent_case_or_space,present,present 
+Records,R02412,attendance,inconsistent_case_or_space,present,Present
+Records,R11975,attendance,inconsistent_case_or_space,present,Present
+Records,R32313,attendance,inconsistent_case_or_space,present,Present
+Records,R14556,attendance,inconsistent_case_or_space,present,present 
+Records,R31448,attendance,inconsistent_case_or_space,present,Present
+Records,R18588,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R27193,attendance,inconsistent_case_or_space,present,present 
+Records,R11555,attendance,inconsistent_case_or_space,present,present 
+Records,R22933,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R11832,attendance,inconsistent_case_or_space,present,present 
+Records,R13649,attendance,inconsistent_case_or_space,present,Present
+Records,R26692,attendance,inconsistent_case_or_space,present,Present
+Records,R00226,attendance,inconsistent_case_or_space,present,Present
+Records,R05247,attendance,inconsistent_case_or_space,present,Present
+Records,R26419,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R22123,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R11672,attendance,inconsistent_case_or_space,present,Present
+Records,R29942,attendance,inconsistent_case_or_space,present,present 
+Records,R29016,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R17408,attendance,inconsistent_case_or_space,excused,excused 
+Records,R14477,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R08039,attendance,inconsistent_case_or_space,present,present 
+Records,R02785,attendance,inconsistent_case_or_space,present,present 
+Records,R09419,attendance,inconsistent_case_or_space,present,present 
+Records,R02705,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R34498,attendance,inconsistent_case_or_space,present,present 
+Records,R10303,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R01122,attendance,inconsistent_case_or_space,present,present 
+Records,R26354,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R30657,attendance,inconsistent_case_or_space,present,present 
+Records,R32967,attendance,inconsistent_case_or_space,present,Present
+Records,R16074,attendance,inconsistent_case_or_space,present,present 
+Records,R01634,attendance,inconsistent_case_or_space,excused,EXCUSED
+Records,R15822,attendance,inconsistent_case_or_space,present,present 
+Records,R11921,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R19397,attendance,inconsistent_case_or_space,present,Present
+Records,R31968,attendance,inconsistent_case_or_space,present,present 
+Records,R04383,attendance,inconsistent_case_or_space,present,present 
+Records,R28621,attendance,inconsistent_case_or_space,present,Present
+Records,R00717,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R22669,attendance,inconsistent_case_or_space,present,Present
+Records,R02886,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R06932,attendance,inconsistent_case_or_space,present,Present
+Records,R17470,attendance,inconsistent_case_or_space,present,present 
+Records,R09777,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R32703,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R27181,attendance,inconsistent_case_or_space,present,Present
+Records,R29599,attendance,inconsistent_case_or_space,present,present 
+Records,R33592,attendance,inconsistent_case_or_space,present,Present
+Records,R24858,attendance,inconsistent_case_or_space,present,present 
+Records,R32664,attendance,inconsistent_case_or_space,present,present 
+Records,R10923,attendance,inconsistent_case_or_space,late,LATE
+Records,R28018,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R33906,attendance,inconsistent_case_or_space,present,present 
+Records,R26063,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R06727,attendance,inconsistent_case_or_space,present,Present
+Records,R13987,attendance,inconsistent_case_or_space,present,Present
+Records,R01362,attendance,inconsistent_case_or_space,present,Present
+Records,R07155,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R18106,attendance,inconsistent_case_or_space,late,late 
+Records,R11762,attendance,inconsistent_case_or_space,present,present 
+Records,R05200,attendance,inconsistent_case_or_space,present,Present
+Records,R03378,attendance,inconsistent_case_or_space,present,present 
+Records,R28458,attendance,inconsistent_case_or_space,present,present 
+Records,R18689,attendance,inconsistent_case_or_space,absent,Absent
+Records,R25741,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R14589,attendance,inconsistent_case_or_space,present,present 
+Records,R12716,attendance,inconsistent_case_or_space,present,present 
+Records,R25201,attendance,inconsistent_case_or_space,present,present 
+Records,R32959,attendance,inconsistent_case_or_space,absent,ABSENT
+Records,R04013,attendance,inconsistent_case_or_space,present,Present
+Records,R04465,attendance,inconsistent_case_or_space,present,PRESENT
+Records,R29222,attendance,inconsistent_case_or_space,absent,Absent
+Records,R12767,attendance,inconsistent_case_or_space,present,present 
+Records,R32685,attendance,inconsistent_case_or_space,present,present 
+Records,R32587,attendance,inconsistent_case_or_space,present,Present
+Records,R21335,exam_score,out_of_range_score,36,-2
+Records,R03196,exam_score,out_of_range_score,19,32
+Records,R28251,exam_score,out_of_range_score,7,23
+Records,R24845,exam_score,out_of_range_score,10,30
+Records,R14842,exam_score,out_of_range_score,19,33
+Records,R12775,exam_score,out_of_range_score,7,24
+Records,R08344,exam_score,out_of_range_score,17,27
+Records,R06525,exam_score,out_of_range_score,43,57
+Records,R23363,exam_score,out_of_range_score,18,21
+Records,R28624,exam_score,out_of_range_score,34,-1
+Records,R20802,(row),duplicate_row,,duplicated
+Records,R09743,(row),duplicate_row,,duplicated
+Records,R21086,(row),duplicate_row,,duplicated
+Records,R14506,(row),duplicate_row,,duplicated
+Records,R04504,(row),duplicate_row,,duplicated
+Records,R10972,(row),duplicate_row,,duplicated
+Records,R03823,(row),duplicate_row,,duplicated
+Records,R34576,(row),duplicate_row,,duplicated
+Records,R31931,(row),duplicate_row,,duplicated
+Records,R21183,(row),duplicate_row,,duplicated
+Records,R20729,(row),duplicate_row,,duplicated
+Records,R16785,(row),duplicate_row,,duplicated
+Records,R08187,(row),duplicate_row,,duplicated
+Records,R27735,(row),duplicate_row,,duplicated
+Records,R28686,(row),duplicate_row,,duplicated
+Records,R20922,(row),duplicate_row,,duplicated
+Records,R06904,(row),duplicate_row,,duplicated
+Records,R15465,(row),duplicate_row,,duplicated
+Records,R12448,(row),duplicate_row,,duplicated
+Records,R18771,(row),duplicate_row,,duplicated
+Records,R27785,(row),duplicate_row,,duplicated
+Records,R12145,(row),duplicate_row,,duplicated
+Records,R33223,(row),duplicate_row,,duplicated
+Records,R17648,(row),duplicate_row,,duplicated
+Records,R14775,(row),duplicate_row,,duplicated
+Records,R02092,(row),duplicate_row,,duplicated
+Records,R00117,(row),duplicate_row,,duplicated
+Records,R04997,(row),duplicate_row,,duplicated
+Records,R32244,(row),duplicate_row,,duplicated
+Records,R25586,(row),duplicate_row,,duplicated
+Records,R28285,(row),duplicate_row,,duplicated
+Records,R09070,(row),duplicate_row,,duplicated
+Records,R00807,(row),duplicate_row,,duplicated
+Records,R08468,(row),duplicate_row,,duplicated
+Records,R18618,(row),duplicate_row,,duplicated
+Records,R10128,(row),duplicate_row,,duplicated
+Records,R24085,(row),duplicate_row,,duplicated
+Records,R10481,(row),duplicate_row,,duplicated
+Records,R18160,(row),duplicate_row,,duplicated
+Records,R21575,(row),duplicate_row,,duplicated
+Records,R07091,(row),duplicate_row,,duplicated
+Records,R03728,(row),duplicate_row,,duplicated
+Records,R20967,(row),duplicate_row,,duplicated
+Records,R30983,(row),duplicate_row,,duplicated
+Records,R24451,(row),duplicate_row,,duplicated
+Records,R00252,(row),duplicate_row,,duplicated
+Records,R30736,(row),duplicate_row,,duplicated
+Records,R20292,(row),duplicate_row,,duplicated
+Records,R14829,(row),duplicate_row,,duplicated
+Records,R06867,(row),duplicate_row,,duplicated
+Records,R06160,(row),duplicate_row,,duplicated
+Records,R24431,(row),duplicate_row,,duplicated
+Records,R29265,(row),duplicate_row,,duplicated
+Records,R25500,(row),duplicate_row,,duplicated
+Records,R05195,(row),duplicate_row,,duplicated
+Records,R03950,(row),duplicate_row,,duplicated
+Records,R05462,(row),duplicate_row,,duplicated
+Records,R21342,(row),duplicate_row,,duplicated
+Records,R29676,(row),duplicate_row,,duplicated
+Records,R05287,(row),duplicate_row,,duplicated
+Records,R15763,(row),duplicate_row,,duplicated
+Records,R14233,(row),duplicate_row,,duplicated
+Records,R05028,(row),duplicate_row,,duplicated
+Records,R00406,(row),duplicate_row,,duplicated
+Records,R19520,(row),duplicate_row,,duplicated
+Records,R11879,(row),duplicate_row,,duplicated
+Records,R11476,(row),duplicate_row,,duplicated
+Records,R30407,(row),duplicate_row,,duplicated
+Records,R10151,(row),duplicate_row,,duplicated
+Payments,P02795,student_id,missing_value,S0920,
+Payments,P00292,student_id,missing_value,S0308,
+Payments,P08097,student_id,missing_value,S0383,
+Payments,P03687,student_id,missing_value,S0843,
+Payments,P01343,student_id,missing_value,S0409,
+Payments,P00307,student_id,missing_value,S0326,
+Payments,P04095,student_id,missing_value,S0266,
+Payments,P03649,student_id,missing_value,S0804,
+Payments,P01036,student_id,missing_value,S0089,
+Payments,P05021,student_id,missing_value,S0217,
+Payments,P01033,month_label,missing_value,شهر 2,
+Payments,P04726,month_label,missing_value,شهر 5,
+Payments,P02081,month_label,missing_value,شهر 3,
+Payments,P00484,month_label,missing_value,شهر 1,
+Payments,P02032,month_label,missing_value,شهر 3,
+Payments,P06208,month_label,missing_value,شهر 7,
+Payments,P06002,month_label,missing_value,شهر 7,
+Payments,P02475,month_label,missing_value,شهر 3,
+Payments,P01359,month_label,missing_value,شهر 2,
+Payments,P01276,month_label,missing_value,شهر 2,
+Payments,P04499,status,missing_value,partial,
+Payments,P06564,status,missing_value,exempt,
+Payments,P02839,status,missing_value,paid,
+Payments,P01668,status,missing_value,paid,
+Payments,P06858,status,missing_value,paid,
+Payments,P06495,status,missing_value,unpaid,
+Payments,P04624,status,missing_value,unpaid,
+Payments,P04765,status,missing_value,paid_late,
+Payments,P03643,status,missing_value,paid,
+Payments,P06794,status,missing_value,paid,
+Payments,P03524,amount_due,missing_value,600,
+Payments,P04793,amount_due,missing_value,600,
+Payments,P01942,amount_due,missing_value,700,
+Payments,P07342,amount_due,missing_value,800,
+Payments,P00481,amount_due,missing_value,800,
+Payments,P00355,amount_due,missing_value,0,
+Payments,P06927,amount_due,missing_value,650,
+Payments,P02280,amount_due,missing_value,800,
+Payments,P05861,amount_due,missing_value,400,
+Payments,P04784,amount_due,missing_value,600,
+Payments,P02781,amount_paid,missing_value,800,
+Payments,P02020,amount_paid,missing_value,460,
+Payments,P02489,amount_paid,missing_value,640,
+Payments,P00724,amount_paid,missing_value,650,
+Payments,P07565,amount_paid,missing_value,650,
+Payments,P05819,amount_paid,missing_value,700,
+Payments,P00124,amount_paid,missing_value,800,
+Payments,P07939,amount_paid,missing_value,650,
+Payments,P00546,amount_paid,missing_value,600,
+Payments,P03175,amount_paid,missing_value,800,
+Payments,P07367,due_date,missing_value,2026-04-22,
+Payments,P04883,due_date,missing_value,2026-02-21,
+Payments,P07489,due_date,missing_value,2026-04-19,
+Payments,P06549,due_date,missing_value,2026-03-12,
+Payments,P07140,due_date,missing_value,2026-04-24,
+Payments,P03316,due_date,missing_value,2025-11-29,
+Payments,P08222,due_date,missing_value,2026-05-16,
+Payments,P04727,due_date,missing_value,2026-01-05,
+Payments,P01932,due_date,missing_value,2025-11-04,
+Payments,P06017,due_date,missing_value,2026-03-08,
+Payments,P03701,paid_date,missing_value,2025-12-07,
+Payments,P07913,paid_date,missing_value,2026-05-29,
+Payments,P01262,paid_date,missing_value,2025-10-07,
+Payments,P07127,paid_date,missing_value,2026-05-13,
+Payments,P06568,paid_date,missing_value,2026-04-01,
+Payments,P07826,paid_date,missing_value,2026-06-20,
+Payments,P04773,paid_date,missing_value,2026-01-03,
+Payments,P04866,paid_date,missing_value,2026-02-20,
+Payments,P02894,paid_date,missing_value,2025-11-29,
+Payments,P01247,paid_date,missing_value,2025-10-16,
+Payments,P01355,method,missing_value,كاش,
+Payments,P03429,method,missing_value,كاش,
+Payments,P06352,method,missing_value,كاش,
+Payments,P03167,method,missing_value,كاش,
+Payments,P05627,method,missing_value,كاش,
+Payments,P00225,method,missing_value,كاش,
+Payments,P01942,method,missing_value,إنستاباي,
+Payments,P05743,method,missing_value,كاش,
+Payments,P07845,method,missing_value,كاش,
+Payments,P07257,method,trailing_space,كاش,كاش 
+Payments,P07080,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P05374,method,trailing_space,كاش,كاش 
+Payments,P04850,method,trailing_space,كاش,كاش 
+Payments,P02551,method,trailing_space,كاش,كاش 
+Payments,P05005,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P05324,method,trailing_space,كاش,كاش 
+Payments,P06796,method,trailing_space,كاش,كاش 
+Payments,P03117,method,trailing_space,كاش,كاش 
+Payments,P07284,method,trailing_space,كاش,كاش 
+Payments,P03694,method,trailing_space,كاش,كاش 
+Payments,P00341,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P06423,method,trailing_space,كاش,كاش 
+Payments,P01825,method,trailing_space,كاش,كاش 
+Payments,P03985,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P03388,method,trailing_space,كاش,كاش 
+Payments,P06077,method,trailing_space,كاش,كاش 
+Payments,P03279,method,trailing_space,كاش,كاش 
+Payments,P03227,method,trailing_space,كاش,كاش 
+Payments,P02272,method,trailing_space,كاش,كاش 
+Payments,P06928,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P04268,method,trailing_space,كاش,كاش 
+Payments,P00982,method,trailing_space,كاش,كاش 
+Payments,P04434,method,trailing_space,كاش,كاش 
+Payments,P06549,method,trailing_space,كاش,كاش 
+Payments,P05140,method,trailing_space,كاش,كاش 
+Payments,P04860,method,trailing_space,كاش,كاش 
+Payments,P07087,method,trailing_space,كاش,كاش 
+Payments,P00568,method,trailing_space,كاش,كاش 
+Payments,P05356,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P06139,method,trailing_space,كاش,كاش 
+Payments,P03544,method,trailing_space,كاش,كاش 
+Payments,P07063,method,trailing_space,كاش,كاش 
+Payments,P04790,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P05110,method,trailing_space,تحويل بنكي,تحويل بنكي 
+Payments,P08099,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P01890,method,trailing_space,كاش,كاش 
+Payments,P03726,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P01627,method,trailing_space,كاش,كاش 
+Payments,P07653,method,trailing_space,كاش,كاش 
+Payments,P02466,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P03171,method,trailing_space,كاش,كاش 
+Payments,P01242,method,trailing_space,كاش,كاش 
+Payments,P00444,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P00703,method,trailing_space,كاش,كاش 
+Payments,P00536,method,trailing_space,كاش,كاش 
+Payments,P03469,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P06734,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P08129,method,trailing_space,كاش,كاش 
+Payments,P06293,method,trailing_space,كاش,كاش 
+Payments,P00087,method,trailing_space,كاش,كاش 
+Payments,P00478,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P05882,method,trailing_space,إنستاباي,إنستاباي 
+Payments,P01233,method,trailing_space,كاش,كاش 
+Payments,P02418,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P07417,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P02023,method,trailing_space,تحويل بنكي,تحويل بنكي 
+Payments,P00419,method,trailing_space,كاش,كاش 
+Payments,P05510,method,trailing_space,كاش,كاش 
+Payments,P02084,method,trailing_space,كاش,كاش 
+Payments,P03257,method,trailing_space,كاش,كاش 
+Payments,P07804,method,trailing_space,كاش,كاش 
+Payments,P04020,method,trailing_space,كاش,كاش 
+Payments,P06402,method,trailing_space,كاش,كاش 
+Payments,P04001,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P00693,method,trailing_space,كاش,كاش 
+Payments,P01659,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P03435,method,trailing_space,كاش,كاش 
+Payments,P02392,method,trailing_space,كاش,كاش 
+Payments,P01579,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P00365,method,trailing_space,كاش,كاش 
+Payments,P03308,method,trailing_space,فودافون كاش,فودافون كاش 
+Payments,P06483,method,trailing_space,كاش,كاش 
+Payments,P07153,method,trailing_space,كاش,كاش 
+Payments,P06040,method,trailing_space,كاش,كاش 
+Payments,P02215,method,trailing_space,كاش,كاش 
+Payments,P00064,method,trailing_space,كاش,كاش 
+Payments,P01883,status,inconsistent_label,paid,Paid
+Payments,P01090,status,inconsistent_label,exempt,exempted
+Payments,P06790,status,inconsistent_label,paid,Paid
+Payments,P01001,status,inconsistent_label,paid,Paid
+Payments,P07082,status,inconsistent_label,partial,partially paid
+Payments,P05558,status,inconsistent_label,unpaid,UNPAID
+Payments,P01520,status,inconsistent_label,paid,Paid
+Payments,P06117,status,inconsistent_label,paid,Paid
+Payments,P00924,status,inconsistent_label,paid,Paid
+Payments,P05228,status,inconsistent_label,unpaid,UNPAID
+Payments,P08493,status,inconsistent_label,paid,Paid
+Payments,P07487,status,inconsistent_label,paid,Paid
+Payments,P03170,status,inconsistent_label,paid,Paid
+Payments,P01690,status,inconsistent_label,paid,Paid
+Payments,P07241,status,inconsistent_label,paid,Paid
+Payments,P05539,status,inconsistent_label,unpaid,UNPAID
+Payments,P00204,status,inconsistent_label,paid,Paid
+Payments,P02035,status,inconsistent_label,paid,Paid
+Payments,P06135,status,inconsistent_label,paid,Paid
+Payments,P05285,status,inconsistent_label,paid,Paid
+Payments,P03477,status,inconsistent_label,paid,Paid
+Payments,P04920,status,inconsistent_label,paid,Paid
+Payments,P00023,status,inconsistent_label,paid,Paid
+Payments,P07901,status,inconsistent_label,paid,Paid
+Payments,P02697,status,inconsistent_label,paid,Paid
+Payments,P04149,status,inconsistent_label,paid,Paid
+Payments,P07551,status,inconsistent_label,paid,Paid
+Payments,P07106,status,inconsistent_label,paid_late,late
+Payments,P06905,status,inconsistent_label,paid,Paid
+Payments,P08282,status,inconsistent_label,paid,Paid
+Payments,P01589,status,inconsistent_label,paid,Paid
+Payments,P08215,status,inconsistent_label,paid,Paid
+Payments,P05417,status,inconsistent_label,paid,Paid
+Payments,P00575,status,inconsistent_label,paid,Paid
+Payments,P03028,status,inconsistent_label,paid,Paid
+Payments,P00236,status,inconsistent_label,paid,Paid
+Payments,P00537,status,inconsistent_label,paid,Paid
+Payments,P08025,status,inconsistent_label,paid,Paid
+Payments,P06586,status,inconsistent_label,paid,Paid
+Payments,P07799,status,inconsistent_label,paid,Paid
+Payments,P04214,status,inconsistent_label,unpaid,UNPAID
+Payments,P03553,status,inconsistent_label,paid,Paid
+Payments,P02716,status,inconsistent_label,paid,Paid
+Payments,P02890,status,inconsistent_label,paid,Paid
+Payments,P04805,status,inconsistent_label,paid,Paid
+Payments,P08191,status,inconsistent_label,paid,Paid
+Payments,P00892,status,inconsistent_label,paid,Paid
+Payments,P03937,status,inconsistent_label,paid,Paid
+Payments,P06509,status,inconsistent_label,paid,Paid
+Payments,P07973,status,inconsistent_label,paid,Paid
+Payments,P02319,status,inconsistent_label,paid,Paid
+Payments,P00934,status,inconsistent_label,exempt,exempted
+Payments,P01670,status,inconsistent_label,paid,Paid
+Payments,P03997,status,inconsistent_label,paid,Paid
+Payments,P05997,status,inconsistent_label,paid,Paid
+Payments,P00550,status,inconsistent_label,paid,Paid
+Payments,P05501,status,inconsistent_label,paid,Paid
+Payments,P04612,status,inconsistent_label,paid_late,late
+Payments,P02350,status,inconsistent_label,paid,Paid
+Payments,P07775,status,inconsistent_label,paid,Paid
+Payments,P08409,status,inconsistent_label,paid,Paid
+Payments,P04710,status,inconsistent_label,exempt,exempted
+Payments,P02316,status,inconsistent_label,unpaid,UNPAID
+Payments,P01752,status,inconsistent_label,paid,Paid
+Payments,P04234,status,inconsistent_label,unpaid,UNPAID
+Payments,P00472,status,inconsistent_label,paid,Paid
+Payments,P05011,status,inconsistent_label,paid,Paid
+Payments,P07421,status,inconsistent_label,paid,Paid
+Payments,P08090,status,inconsistent_label,paid,Paid
+Payments,P02990,status,inconsistent_label,paid,Paid
+Payments,P03109,status,inconsistent_label,paid,Paid
+Payments,P01010,status,inconsistent_label,paid,Paid
+Payments,P01407,status,inconsistent_label,paid,Paid
+Payments,P00950,status,inconsistent_label,paid,Paid
+Payments,P08387,status,inconsistent_label,paid,Paid
+Payments,P02850,status,inconsistent_label,paid,Paid
+Payments,P06133,status,inconsistent_label,unpaid,UNPAID
+Payments,P04988,status,inconsistent_label,partial,partially paid
+Payments,P05995,status,inconsistent_label,paid,Paid
+Payments,P07477,status,inconsistent_label,paid,Paid
+Payments,P01995,status,inconsistent_label,paid,Paid
+Payments,P07486,status,inconsistent_label,paid,Paid
+Payments,P01382,status,inconsistent_label,paid,Paid
+Payments,P06201,status,inconsistent_label,paid,Paid
+Payments,P07825,status,inconsistent_label,paid,Paid
+Payments,P03851,status,inconsistent_label,paid,Paid
+Payments,P00546,(row),duplicate_row,,duplicated
+Payments,P01517,(row),duplicate_row,,duplicated
+Payments,P00444,(row),duplicate_row,,duplicated
+Payments,P04579,(row),duplicate_row,,duplicated
+Payments,P03448,(row),duplicate_row,,duplicated
+Payments,P03010,(row),duplicate_row,,duplicated
+Payments,P07785,(row),duplicate_row,,duplicated
+Payments,P01868,(row),duplicate_row,,duplicated
+Payments,P04423,(row),duplicate_row,,duplicated
+Payments,P07837,(row),duplicate_row,,duplicated
+Payments,P00864,(row),duplicate_row,,duplicated
+Payments,P05654,(row),duplicate_row,,duplicated
+Payments,P04959,(row),duplicate_row,,duplicated
+Payments,P06090,(row),duplicate_row,,duplicated
+Payments,P03290,(row),duplicate_row,,duplicated
+Payments,P06422,(row),duplicate_row,,duplicated
+Payments,P05473,(row),duplicate_row,,duplicated

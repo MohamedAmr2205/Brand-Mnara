@@ -1,6 +1,6 @@
 """منارة · Mnara — داشبورد المدرس وبوابة الطالب وولي الأمر.
 
-    streamlit run app.py
+    streamlit run app/app.py
 
 Login:
   - Teacher: password from Streamlit secrets (TEACHER_PASSWORD).
@@ -12,6 +12,15 @@ from __future__ import annotations
 
 import html
 import re
+import sys
+from pathlib import Path
+
+# the app can live in the repo root or in app/: find the folder that holds src/
+ROOT = Path(__file__).resolve().parent
+while not (ROOT / "src").is_dir() and ROOT != ROOT.parent:
+    ROOT = ROOT.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 import numpy as np
 import pandas as pd

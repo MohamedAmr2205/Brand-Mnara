@@ -263,6 +263,24 @@ S = ctx.S
 AS_OF = ctx.as_of
 
 
+@st.cache_resource(show_spinner=False)
+def qfig(n: int):
+    fig, takeaway = eda._FUNCS[n](ctx)
+    return dark(fig), takeaway
+
+
+def eda_block(ids, note: bool = True) -> None:
+    """Render EDA questions (same functions as notebooks/02_eda.ipynb)."""
+    if note:
+        st.markdown('<p class="mn-note">الرسومات دي من نفس أسئلة الـ EDA، ومحسوبة على كل الطلاب والمجموعات مش على الفلتر.</p>', unsafe_allow_html=True)
+    for n in ids:
+        q = eda.QUESTIONS[n]
+        fig, takeaway = qfig(n)
+        st.markdown(f'<div class="mn-sec" style="font-size:19px">{e(q["title"])}</div><div class="mn-say">{e(takeaway)}</div>',
+                    unsafe_allow_html=True)
+        show_fig(fig)
+
+
 def topbar(title_right: str = "") -> None:
     st.markdown(
         f'<div class="mn-top"><div class="mn-brand">{logo(22, "tb")}<div><b>Mnara</b><small>منارة</small></div></div>'
@@ -500,6 +518,8 @@ def page_groups(A: pd.DataFrame) -> None:
     show_df(pd.DataFrame({"المجموعة": G.nm, "الطلاب": G["size"], "الحضور %": (G.att * 100).round(0), "الدرجات %": (G.avg * 100).round(0),
                           "الواجب %": (G.hw_rate * 100).round(0), "التحصيل %": (G.collection * 100).round(0), "في خطر": G.risk_n,
                           "سابوا": G.dropped, "مؤشرات ضعيفة (من 5)": G.nflags}))
+    with st.expander("تحليلات المجموعات من الـ EDA", expanded=False):
+        eda_block([54, 71, 17, 22, 29, 35, 56])
 
 
 def page_money(A: pd.DataFrame) -> None:
@@ -519,16 +539,20 @@ def page_money(A: pd.DataFrame) -> None:
     d = A[A.owed > 0].sort_values("owed", ascending=False).head(25)
     show_df(pd.DataFrame({"الطالب": d.name, "الكود": d.index, "المجموعة": d.group_id, "شهور متأخرة": d.unpaid_m.astype(int),
                           "المبلغ (ج)": d.owed.round(0), "موبايل ولي الأمر": d.parent_phone}))
+    with st.expander("تحليلات الدفع والتحصيل من الـ EDA", expanded=False):
+        eda_block([37, 38, 39, 46, 47, 45])
 
 
 def page_insights() -> None:
     axes = list(dict.fromkeys(q["axis"] for q in eda.QUESTIONS.values()))
-    ax = st.selectbox("المحور", axes, key="ins_axis")
-    qs = [q for q in eda.QUESTIONS.values() if q["axis"] == ax]
-    qn = st.selectbox("السؤال", [q["id"] for q in qs], format_func=lambda n: eda.QUESTIONS[n]["title"], key="ins_q")
-    fig, takeaway = eda._FUNCS[qn](ctx)
-    st.markdown(f'<div class="mn-say">{e(takeaway)}</div>', unsafe_allow_html=True)
-    show_fig(dark(fig))
+    st.markdown(f'<p class="mn-lead">كل أسئلة الـ EDA ({len(eda.QUESTIONS)} سؤال)، مقسمة على {len(axes)} محاور. اختار محور وهتظهر كل أسئلته.</p>',
+                unsafe_allow_html=True)
+    ax = st.radio("المحور", axes, horizontal=True, key="ins_axis", label_visibility="collapsed")
+    ids = [q["id"] for q in eda.QUESTIONS.values() if q["axis"] == ax]
+    only_p1 = st.toggle("الأسئلة الأساسية بس (P1)", value=False, key="ins_p1")
+    if only_p1:
+        ids = [n for n in ids if eda.QUESTIONS[n]["prio"] == "P1"]
+    eda_block(ids, note=False)
 
 
 def teacher() -> None:

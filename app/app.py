@@ -63,6 +63,21 @@ PAY_AR = eda.STATUS_AR
 PAY_COL = {"paid": GREEN, "paid_late": AMBER, "partial": AMBER, "unpaid": RED, "exempt": GREY}
 MAX_TRIES = 5
 
+# chart colours on the dark brand ground (Brand Blue is lifted so it reads on Midnight)
+CH = dict(blue="#4F86E0", mint=MINT, cyan=CYAN, teal="#2A9D9F", amber="#FFB020", red="#E5484D", green=GREEN, grey="#7F93AE")
+
+
+def brand_eda() -> None:
+    """Re-colour the shared EDA charts with the brand palette (no change to the analysis)."""
+    eda.C.update(midnight=MIST, mist="#1B3D74", deep=CH["teal"], blue=CH["blue"], cyan=CH["cyan"], mint=CH["mint"],
+                 amber=CH["amber"], red=CH["red"], green=CH["green"], grey=CH["grey"])
+    eda.SEQ[:] = [CH["blue"], CH["mint"], CH["amber"], CH["red"], CH["teal"], CH["cyan"], CH["grey"]]
+    eda.LEVELS = [("ممتاز", 0.90, CH["green"]), ("جيد", 0.75, CH["blue"]), ("متوسط", 0.60, CH["amber"]), ("ضعيف", 0.0, CH["red"])]
+    eda.STATUS_COL.update(paid=CH["green"], paid_late=CH["amber"], partial=CH["cyan"], unpaid=CH["red"], exempt=CH["grey"])
+
+
+brand_eda()
+
 LOGO = (
     '<svg viewBox="0 0 40 84" width="{w}" height="{h}" aria-hidden="true"><defs><linearGradient id="{gid}" x1="0" y1="1" x2="0" y2="0">'
     '<stop offset="0" stop-color="#00D4FF" stop-opacity=".95"/><stop offset=".55" stop-color="#00D4FF" stop-opacity=".35"/>'
@@ -191,7 +206,15 @@ def dark(fig: go.Figure, h: int | None = None) -> go.Figure:
     fig.update_xaxes(gridcolor="rgba(232,239,243,.08)", zerolinecolor="rgba(232,239,243,.12)")
     fig.update_yaxes(gridcolor="rgba(232,239,243,.08)", zerolinecolor="rgba(232,239,243,.12)")
 
+    fig.update_layout(colorway=eda.SEQ)
+
     def _tbl(t):
+        if t.type == "heatmap":
+            cs = t.colorscale
+            if isinstance(cs, (list, tuple)) and len(cs) == 2:   # one-colour scale
+                t.update(colorscale=[[0, "#0B2350"], [1, cs[-1][1]]])
+            else:                                                 # good/bad scale
+                t.update(colorscale=[[0, CH["red"]], [0.5, "#1B3D74"], [1, CH["mint"]]])
         if t.type == "table":
             t.update(header=dict(fill_color=DEEP, font=dict(color=MIST, size=13), line_color=MID),
                      cells=dict(fill_color="#0B2350", font=dict(color="#C9D7E6", size=12.5), line_color=MID))
@@ -201,12 +224,12 @@ def dark(fig: go.Figure, h: int | None = None) -> go.Figure:
     return fig
 
 
-def show_fig(fig) -> None:
+def show_fig(fig, key: str) -> None:
     cfg = {"displayModeBar": False}
     try:
-        st.plotly_chart(fig, width="stretch", config=cfg)
+        st.plotly_chart(fig, width="stretch", config=cfg, key=key)
     except TypeError:
-        st.plotly_chart(fig, use_container_width=True, config=cfg)
+        st.plotly_chart(fig, use_container_width=True, config=cfg, key=key)
 
 
 def show_df(df, **kw) -> None:
@@ -269,7 +292,7 @@ def qfig(n: int):
     return dark(fig), takeaway
 
 
-def eda_block(ids, note: bool = True) -> None:
+def eda_block(ids, where: str, note: bool = True) -> None:
     """Render EDA questions (same functions as notebooks/02_eda.ipynb)."""
     if note:
         st.markdown('<p class="mn-note">الرسومات دي من نفس أسئلة الـ EDA، ومحسوبة على كل الطلاب والمجموعات مش على الفلتر.</p>', unsafe_allow_html=True)
@@ -278,7 +301,7 @@ def eda_block(ids, note: bool = True) -> None:
         fig, takeaway = qfig(n)
         st.markdown(f'<div class="mn-sec" style="font-size:19px">{e(q["title"])}</div><div class="mn-say">{e(takeaway)}</div>',
                     unsafe_allow_html=True)
-        show_fig(fig)
+        show_fig(fig, key=f"eda-{where}-{n}")
 
 
 def topbar(title_right: str = "") -> None:
@@ -381,7 +404,7 @@ def student_view(sid: str, teacher: bool) -> None:
                         line=dict(color=CYAN, width=2, dash="dash"), marker=dict(size=9, symbol="diamond"), hovertemplate="%{y:.0%}")
     fig.update_yaxes(tickformat=".0%", range=[0, 1.05])
     fig.update_layout(title="الدرجات والحضور شهر بشهر", legend=dict(orientation="h", y=-0.2, x=1, xanchor="right"))
-    show_fig(dark(fig, 380))
+    show_fig(dark(fig, 380), key=f"stu-{sid}-{teacher}")
 
     c1, c2 = st.columns(2)
     with c1:
@@ -482,7 +505,7 @@ def page_segments(A: pd.DataFrame) -> None:
     fig.add_vline(x=rules.AT_RISK_ATTENDANCE_MAX, line=dict(color=RED, dash="dot", width=1))
     fig.update_xaxes(tickformat=".0%", title="الحضور"); fig.update_yaxes(tickformat=".0%", title="متوسط الدرجات")
     fig.update_layout(title="كل طالب نقطة: الحضور قدام الدرجات", legend=dict(orientation="h", y=-0.22, x=1, xanchor="right"))
-    show_fig(dark(fig, 460))
+    show_fig(dark(fig, 460), key="seg-scatter")
 
     pick = st.selectbox("اعرض طلاب شريحة", order, format_func=lambda k: SEG[k][0], key="seg_pick")
     d = A[A.segment == pick].sort_values("avg")
@@ -509,17 +532,17 @@ def page_groups(A: pd.DataFrame) -> None:
     G = eda.group_flags(ctx)
     G = G[G.index.isin(A.group_id.unique())]
     fig = go.Figure(go.Scatter(x=G.att, y=G.avg, mode="markers+text", text=G.index, textposition="top center",
-                               marker=dict(size=np.clip(G["size"].fillna(10), 8, 40), color=G.collection, colorscale=[[0, RED], [0.5, AMBER], [1, GREEN]],
+                               marker=dict(size=np.clip(G["size"].fillna(10), 8, 40), color=G.collection, colorscale=[[0, CH["red"]], [0.5, CH["amber"]], [1, MINT]],
                                            showscale=True, colorbar=dict(title="التحصيل", tickformat=".0%")),
                                customdata=G.nm, hovertemplate="%{customdata}<br>الحضور %{x:.0%} · الدرجات %{y:.0%}<extra></extra>"))
     fig.update_xaxes(tickformat=".0%", title="الحضور"); fig.update_yaxes(tickformat=".0%", title="متوسط الدرجات")
     fig.update_layout(title="المجموعات: الحجم = عدد الطلاب، واللون = التحصيل")
-    show_fig(dark(fig, 460))
+    show_fig(dark(fig, 460), key="grp-scatter")
     show_df(pd.DataFrame({"المجموعة": G.nm, "الطلاب": G["size"], "الحضور %": (G.att * 100).round(0), "الدرجات %": (G.avg * 100).round(0),
                           "الواجب %": (G.hw_rate * 100).round(0), "التحصيل %": (G.collection * 100).round(0), "في خطر": G.risk_n,
                           "سابوا": G.dropped, "مؤشرات ضعيفة (من 5)": G.nflags}))
     with st.expander("تحليلات المجموعات من الـ EDA", expanded=False):
-        eda_block([54, 71, 17, 22, 29, 35, 56])
+        eda_block([54, 71, 17, 22, 29, 35, 56], "groups")
 
 
 def page_money(A: pd.DataFrame) -> None:
@@ -534,13 +557,13 @@ def page_money(A: pd.DataFrame) -> None:
     fig.add_bar(x=[f"شهر {int(i)}" for i in m.index], y=m.due, name="المستحق", marker_color="rgba(91,141,239,.35)")
     fig.add_bar(x=[f"شهر {int(i)}" for i in m.index], y=m.paid, name="المحصّل", marker_color=MINT)
     fig.update_layout(barmode="overlay", title="المحصّل قدام المستحق كل شهر", legend=dict(orientation="h", y=-0.2, x=1, xanchor="right"))
-    show_fig(dark(fig, 380))
+    show_fig(dark(fig, 380), key="money-bars")
     section("أكبر المتأخرات")
     d = A[A.owed > 0].sort_values("owed", ascending=False).head(25)
     show_df(pd.DataFrame({"الطالب": d.name, "الكود": d.index, "المجموعة": d.group_id, "شهور متأخرة": d.unpaid_m.astype(int),
                           "المبلغ (ج)": d.owed.round(0), "موبايل ولي الأمر": d.parent_phone}))
     with st.expander("تحليلات الدفع والتحصيل من الـ EDA", expanded=False):
-        eda_block([37, 38, 39, 46, 47, 45])
+        eda_block([37, 38, 39, 46, 47, 45], "money")
 
 
 def page_insights() -> None:
@@ -552,7 +575,7 @@ def page_insights() -> None:
     only_p1 = st.toggle("الأسئلة الأساسية بس (P1)", value=False, key="ins_p1")
     if only_p1:
         ids = [n for n in ids if eda.QUESTIONS[n]["prio"] == "P1"]
-    eda_block(ids, note=False)
+    eda_block(ids, "insights", note=False)
 
 
 def teacher() -> None:

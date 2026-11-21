@@ -351,7 +351,10 @@ def login() -> None:
                 pw = st.text_input("الباسورد", type="password")
                 ok_t = st.form_submit_button("دخول", disabled=tries >= MAX_TRIES)
             if ok_t:
-                if pw and pw == secret("TEACHER_PASSWORD", "mnara2026"):
+                real = secret("TEACHER_PASSWORD")
+                if real is None:
+                    st.error("باسورد المدرس مش متسجّل في Secrets باسم TEACHER_PASSWORD.")
+                elif pw and pw == real:
                     st.session_state.update(role="teacher", tries=0)
                     st.rerun()
                 else:
@@ -596,8 +599,6 @@ def teacher() -> None:
     with c3:
         st.write("")
         logout_button("lo_t")
-    if secret("TEACHER_PASSWORD") is None:
-        st.caption("الباسورد الافتراضي شغال. غيّره من Secrets بـ TEACHER_PASSWORD قبل ما تشارك اللينك.")
 
     tabs = st.tabs(["النهارده", "الطلاب", "الشرايح", "الدرجة المتوقعة", "المجموعات", "الفلوس", "التحليلات"])
     pages = [page_today, page_students, page_segments, page_forecast, page_groups, page_money]
